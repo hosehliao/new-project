@@ -7,6 +7,7 @@
       "login_form_password_placeholder": "Вашата парола",
       "login_form_error": "Неправилна парола.",
       "login_form_submit": "Въведете",
+      "modal": "Тип парола",
       "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"\/admin\" class=\"link underlined-link\">Влезте тук<\/a>",
       "powered_by_shopify_html": "Този магазин ще се поддържа от {{ shopify }}"
     },
@@ -44,14 +45,10 @@
     },
     "share": {
       "copy_to_clipboard": "Копиране на връзката",
+      "share": "Споделяне",
       "share_url": "Връзка",
       "success_message": "Връзката е копирана в клипборда",
       "close": "Затваряне на споделянето"
-    },
-    "slider": {
-      "of": "от",
-      "next_slide": "Плъзгане надясно",
-      "previous_slide": "Плъзгане наляво"
     }
   },
   "newsletter": {
@@ -70,7 +67,10 @@
       "new_window": "Отваря се в нов прозорец.",
       "external": "Отваря външен уебсайт."
     },
+    "next_slide": "Плъзгане надясно",
+    "previous_slide": "Плъзгане наляво",
     "loading": "Зареждане...",
+    "of": "от",
     "skip_to_product_info": "Прескочи към информацията за продукта",
     "total_reviews": "общ брой мнения",
     "star_reviews_info": "{{ rating_value }} от {{ rating_max }} звезди"
@@ -79,6 +79,7 @@
     "article": {
       "blog": "Блог",
       "read_more_title": "Прочетете още: {{ title }}",
+      "read_more": "Прочетете още",
       "comments": {
         "one": "{{ count }} коментар",
         "other": "{{ count }} коментара"
@@ -134,14 +135,10 @@
         "refresh": "Обнови"
       },
       "media": {
-        "open_media": "Отваряне на мултимедия {{ index }} в модален елемент",
+        "open_featured_media": "Отваряне на актуалната мултимедия в изглед на галерия",
+        "open_media": "Отваряне на мултимедия {{ index }} в изглед на галерия",
         "play_model": "Възпроизвеждане с 3D Viewer",
-        "play_video": "Възпроизвеждане на видеоклип",
-        "gallery_viewer": "Визуализатор на галерията",
-        "load_image": "Зареждане на изображение {{ index }} във визуализатора на галерията",
-        "load_model": "Зареждане на 3D модел {{ index }} във визуализатора на галерията",
-        "load_video": "Пускане на видео {{ index }} във визуализатора на галерията",
-        "image_available": "Изображение {{ index }} вече е налично във визуализатора на галерията"
+        "play_video": "Възпроизвеждане на видеоклип"
       },
       "view_full_details": "Покажи пълните подробности",
       "include_taxes": "С включени данъци.",
@@ -231,7 +228,7 @@
       "checkout": "Преминаване към плащане",
       "empty": "Количката ви е празна.",
       "cart_error": "При актуализирането на количката ви възникна грешка. Опитайте отново.",
-      "cart_quantity_error_html": "Можете да добавите само {{ quantity }} броя от този артикул в количката си.",
+      "cart_quantity_error_html": "Можете да добавите само [quantity] от този артикул в количката си.",
       "taxes_and_shipping_policy_at_checkout_html": "Данъците и <a href=\"{{ link }}\">доставката<\/a> се изчисляват при плащане",
       "taxes_included_but_shipping_at_checkout": "Данъците са включени, а доставката се изчислява при плащане",
       "taxes_included_and_shipping_policy_html": "С включени данъци. <a href=\"{{ link }}\">Доставката<\/a> се изчислява при плащане.",
@@ -250,7 +247,8 @@
       }
     },
     "footer": {
-      "payment": "Начини на плащане"
+      "payment": "Начини на плащане",
+      "social_placeholder": "Последвайте ни в социалните мрежи!"
     },
     "featured_blog": {
       "view_all": "Покажи всички",
@@ -271,15 +269,6 @@
     },
     "video": {
       "load_video": "Зареждане на видео: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Зареждане на слайд",
-      "previous_slideshow": "Предишен слайд",
-      "next_slideshow": "Следващ слайд",
-      "pause_slideshow": "Пауза на слайдшоуто",
-      "play_slideshow": "Възпроизвеждане на слайдшоу",
-      "carousel": "Въртележка",
-      "slide": "Слайд"
     }
   },
   "localization": {

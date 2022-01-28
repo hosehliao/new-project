@@ -1,1 +1,0 @@
-var bcAlParams = jQ.extend({}, bcAlParams, bcAlShopParams); var bcActionList = new BCActionList(); bcActionList.alInit(bcSfFilterParams, bcAlParams);

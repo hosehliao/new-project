@@ -7,6 +7,7 @@
       "login_form_password_placeholder": "Parolanız",
       "login_form_error": "Yanlış parola!",
       "login_form_submit": "Gir",
+      "modal": "Parola modu",
       "admin_link_html": "Mağaza sahibi misiniz? <a href=\"\/admin\" class=\"link underlined-link\">Buradan oturum açın<\/a>",
       "powered_by_shopify_html": "Bu mağaza {{ shopify }} tarafından desteklenir"
     },
@@ -44,14 +45,10 @@
     },
     "share": {
       "copy_to_clipboard": "Bağlantıyı kopyala",
+      "share": "Paylaş",
       "share_url": "Bağlantı",
       "success_message": "Bağlantı panoya kopyalandı",
       "close": "Paylaşımı kapat"
-    },
-    "slider": {
-      "of": "\/",
-      "next_slide": "Sağa kaydır",
-      "previous_slide": "Sola kaydır"
     }
   },
   "newsletter": {
@@ -70,7 +67,10 @@
       "new_window": "Yeni bir pencerede açılır.",
       "external": "Harici web sitesini açar."
     },
+    "next_slide": "Sağa kaydır",
+    "previous_slide": "Sola kaydır",
     "loading": "Yükleniyor...",
+    "of": "\/",
     "skip_to_product_info": "Ürün bilgisine atla",
     "total_reviews": "toplam değerlendirme",
     "star_reviews_info": "{{ rating_value }}\/{{ rating_max }} yıldız"
@@ -79,6 +79,7 @@
     "article": {
       "blog": "Blog",
       "read_more_title": "Devamını okuyun: {{ title }}",
+      "read_more": "Devamını okuyun",
       "comments": {
         "one": "{{ count }} yorum",
         "other": "{{ count }} yorum"
@@ -134,14 +135,10 @@
         "refresh": "Yenile"
       },
       "media": {
-        "open_media": "Medya {{ index }} modda oynatın",
+        "open_featured_media": "Öne çıkan medyayı galeri görünümünde aç",
+        "open_media": "Medya {{ index }} galeri görünümünde aç",
         "play_model": "3B Görüntüleyici'yi Oynat",
-        "play_video": "Videoyu oynat",
-        "gallery_viewer": "Galeri Görüntüleyici",
-        "load_image": "Görsel {{ index }} galeri görüntüleyicide yükleyin",
-        "load_model": "3B Model {{ index }} galeri görüntüleyicide yükleyin",
-        "load_video": "Video {{ index }} galeri görüntüleyicide oynatın",
-        "image_available": "Görsel {{ index }} artık galeri görüntüleyicide kullanılabilir"
+        "play_video": "Videoyu oynat"
       },
       "view_full_details": "Tüm ayrıntıları görüntüle",
       "include_taxes": "Vergi dahildir.",
@@ -232,7 +229,7 @@
       "checkout": "Ödeme",
       "empty": "Sepetiniz boş",
       "cart_error": "Sepetiniz güncellenirken bir hata oluştu. Lütfen tekrar deneyin.",
-      "cart_quantity_error_html": "Sepetinize bu üründen yalnızca {{ quantity }} adet ekleyebilirsiniz.",
+      "cart_quantity_error_html": "Sepetinize bu üründen yalnızca [quantity] adet ekleyebilirsiniz.",
       "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo<\/a>, ödeme sayfasında hesaplanır",
       "taxes_included_but_shipping_at_checkout": "Vergi dahildir ve kargo, ödeme sayfasında hesaplanır",
       "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır.",
@@ -250,7 +247,8 @@
       }
     },
     "footer": {
-      "payment": "Ödeme yöntemleri"
+      "payment": "Ödeme yöntemleri",
+      "social_placeholder": "Bizi sosyal medyadan takip edin!"
     },
     "featured_blog": {
       "view_all": "Tümünü görüntüle",
@@ -271,15 +269,6 @@
     },
     "video": {
       "load_video": "Videoyu yükle: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Slaytı yükle",
-      "previous_slideshow": "Önceki slayt",
-      "next_slideshow": "Sonraki slayt",
-      "pause_slideshow": "Slayt gösterisini duraklat",
-      "play_slideshow": "Slayt gösterisini oynat",
-      "carousel": "Döngü",
-      "slide": "Slayt"
     }
   },
   "localization": {

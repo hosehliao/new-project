@@ -2,19 +2,33 @@
   .carousel-cell {
    
 
-  position:float;
-    display:block;
+ 
     
-      float:left;
-    text-align:center;
+    
+    
     background-color:  rgb(var(--color-base-accent-3));
  
-    width: 100%;
-      
-      
+ 	
+    
       }
       }
 
+@media only screen and (max-width: 800px) {
+.flickity-section__carousel carousel {
+  width: 100%; /* full width */
+  padding-left:5px;
+  
+}
+}
+@media only screen and (min-width: 1280px) {
+.flickity-section__carousel {
+  width: 98%; /* full width */
+  padding-left:100px;
+}
+ 
+}
+.flickity-viewport {
+  width :100%;}
 .flickity-enabled.is-fade .flickity-slider > * {
   pointer-events: none;
   z-index: 0;
@@ -52,4 +66,6 @@ currentFlickity.on('pointerUp', function (event, pointer) {
     height:180px; 
     width:20%;
     
-   
+  }
+.flickity-slider{
+ padding-left:-5px}

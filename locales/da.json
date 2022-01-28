@@ -7,6 +7,7 @@
       "login_form_password_placeholder": "Din adgangskode",
       "login_form_error": "Forkert adgangskode!",
       "login_form_submit": "Få adgang",
+      "modal": "Adgangskodemodus",
       "admin_link_html": "Er du butiksejeren? <a href=\"\/admin\" class=\"link underlined-link\">Log ind her<\/a>",
       "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}"
     },
@@ -30,7 +31,7 @@
     },
     "continue_shopping": "Tilbage til butikken",
     "pagination": {
-      "label": "Sideinddeling",
+      "label": "Sidenummerering",
       "page": "Side {{ number }}",
       "next": "Næste side",
       "previous": "Forrige side"
@@ -44,14 +45,10 @@
     },
     "share": {
       "copy_to_clipboard": "Kopiér link",
+      "share": "Del",
       "share_url": "Link",
       "success_message": "Linket er kopieret til udklipsholderen",
       "close": "Luk deling"
-    },
-    "slider": {
-      "of": "af",
-      "next_slide": "Skub til højre",
-      "previous_slide": "Skub til venstre"
     }
   },
   "newsletter": {
@@ -70,7 +67,10 @@
       "new_window": "Åbner i et nyt vindue.",
       "external": "Åbner eksternt website."
     },
+    "next_slide": "Skub til højre",
+    "previous_slide": "Skub til venstre",
     "loading": "Indlæser...",
+    "of": "af",
     "skip_to_product_info": "Gå til produktoplysninger",
     "total_reviews": "anmeldelser i alt",
     "star_reviews_info": "{{ rating_value }} ud af {{ rating_max }} stjerner"
@@ -79,6 +79,7 @@
     "article": {
       "blog": "Blog",
       "read_more_title": "Læs mere: {{ title }}",
+      "read_more": "Læs mere",
       "comments": {
         "one": "{{ count }} kommentar",
         "other": "{{ count }} kommentarer"
@@ -134,14 +135,10 @@
         "refresh": "Opdater"
       },
       "media": {
-        "open_media": "Åbn mediet {{ index }} i modus",
+        "open_featured_media": "Åbn det fremhævede medie i gallerivisning",
+        "open_media": "Åbn mediet {{ index }} i gallerivisning",
         "play_model": "Afspil 3D-fremviser",
-        "play_video": "Afspil video",
-        "gallery_viewer": "Fremviser til Galleri",
-        "load_image": "Indlæs billedet {{ index }} i gallerivisning",
-        "load_model": "Indlæs 3D-modellen {{ index }} i gallerivisning",
-        "load_video": "Afspil videoen {{ index }} i gallerivisning",
-        "image_available": "Billedet {{ index }} er nu tilgængeligt i gallerivisning"
+        "play_video": "Afspil video"
       },
       "view_full_details": "Se komplette oplysninger",
       "include_taxes": "Inklusive skat.",
@@ -232,7 +229,7 @@
       "checkout": "Gå til betaling",
       "empty": "Din indkøbskurv er tom",
       "cart_error": "Der opstod en fejl under opdatering af din indkøbskurv. Prøv igen.",
-      "cart_quantity_error_html": "Du kan kun lægge {{ quantity }} af denne vare i indkøbskurven.",
+      "cart_quantity_error_html": "Du kan kun lægge [antal] af denne vare i indkøbskurven.",
       "taxes_and_shipping_policy_at_checkout_html": "Afgifter og <a href=\"{{ link }}\">levering<\/a> beregnes ved betaling",
       "taxes_included_but_shipping_at_checkout": "Inklusive afgifter. Levering beregnes ved betaling",
       "taxes_included_and_shipping_policy_html": "Inklusive afgifter. <a href=\"{{ link }}\">Levering<\/a> beregnes ved betaling.",
@@ -250,7 +247,8 @@
       }
     },
     "footer": {
-      "payment": "Betalingsmetoder"
+      "payment": "Betalingsmetoder",
+      "social_placeholder": "Følg os på sociale medier!"
     },
     "featured_blog": {
       "view_all": "Se alle",
@@ -271,15 +269,6 @@
     },
     "video": {
       "load_video": "Indlæs video: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Indlæs dias",
-      "previous_slideshow": "Forrige dias",
-      "next_slideshow": "Næste dias",
-      "pause_slideshow": "Sæt diasshow på pause",
-      "play_slideshow": "Afspil diasshow",
-      "carousel": "Karrusel",
-      "slide": "Dias"
     }
   },
   "localization": {

@@ -1,0 +1,75 @@
+{% comment %} ***LocalBusiness*** {% endcomment %}
+<script type='application/ld+json'> 
+{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "logo": "https://cdn.shopify.com/s/files/1/0549/0471/7382/files/8b9ee0da-d7ab-4afa-936f-fb16ceac8ff9-1589191239-be64asuif0_d.png?v=1633943873",
+    "image": "https://cdn.shopify.com/s/files/1/0549/0471/7382/files/IMG_3198.jpg?v=1638194760",
+    "name": "{{ shop.name }}",
+    "telephone": "+60 12-222 0785",
+    "geo":{
+        "@type": "GeoCoordinates",
+        "latitude": "3.1556972747606533",
+        "longitude": "101.62254345250022"
+    },
+    "url": "{{ shop.url }}",
+    "priceRange": "$$$",
+    "email": "{{ shop.email }}",
+    "contactPoint":    {
+        "@type": "ContactPoint",
+        "telephone": "+60 12-222 0785",
+        "contactType": "Customer Service",
+        "email": "null"
+    },
+    "address":    {
+        "@type": "PostalAddress",
+        "addressCountry": "{{ shop.address.country }}",
+        "addressLocality": "{{ shop.address.city }}",
+        "addressRegion": "{{ shop.address.province }}",
+        "postalCode": "{{ shop.address.zip }}",
+        "streetAddress": "{{ shop.address.street }}"
+    },
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "sameAs": ["https://www.facebook.com/saimemalaysia.os"]
+} 
+</script>
+{% comment %} ***WebSite*** {% endcomment %}
+<script type='application/ld+json'>
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ shop.url }}",
+  "potentialAction": {"@type": "SearchAction",
+  "target": "{{ shop.url }}/search?type=product&q={query}",
+  "query-input": "required name=query"}
+}
+</script>
+{% comment %} ***Product*** {% endcomment %}
+{% if template == "product" %} 
+<script type='application/ld+json'>
+{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "{{ product.title }}",
+    "image": "{{ product.featured_image }}",
+    "description": "{{ product.description | strip_html | truncatewords: 20 }}",    
+    "brand":
+    {
+        "@type": "Thing",
+        "name": "{{ product.vendor }}"
+    },
+    "offers":
+    {
+        "@type": "Offer",
+        "priceCurrency": "{{ shop.currency }}",
+        "price": "{{ product.price | divided_by: 100 }}",        
+        
+        {% if product.available %}
+          "availability": "http://schema.org/InStock"
+        {% else %}
+          "availability": "http://schema.org/SoldOut"
+        {% endif %}
+    }
+} 
+</script>
+{% endif %} 

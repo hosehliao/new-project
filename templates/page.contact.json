@@ -5,6 +5,33 @@
       "settings": {
       }
     },
+    "16375957275cf3718b": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1637595727563db597-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/contact-img.jpg",
+            "title": "",
+            "text": "<p>If you cannot find the answer to your question in the frequently asked questions above, please contact our Customer Service Department at <a href=\"mailto:saimewith@gmail.com\" target=\"_blank\" title=\"mailto:saimewith@gmail.com\">saimewith@gmail.com<\/a> or whatsapp <a href=\"https:\/\/api.whatsapp.com\/send?phone=+6012-2220785\" title=\"https:\/\/api.whatsapp.com\/send?phone=+6012-2220785\">+6012-2220785<\/a><\/p><p><br\/>Customer Service is available Monday – Sunday 10:00 am – 2:00 pm MYT.<br\/><br\/>Address: No. 37A, Lorong Rahim Kajai 13, Taman Tun Dr Ismail, 60000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637595727563db597-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -14,6 +41,7 @@
   },
   "order": [
     "main",
+    "16375957275cf3718b",
     "form"
   ]
 }

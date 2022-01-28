@@ -1,5 +1,9 @@
+{{ 'flickity.min.css' | asset_url | stylesheet_tag }}
+ {{ 'flickity.css' | asset_url | stylesheet_tag }}
+
 {% assign cell_align = section.settings.cell_align %}
 {% assign wrap_around = section.settings.wrap_around %}
+{% assign auto_play = section.settings.auto_play %}
 {% assign img_width = section.settings.img_width | append: 'x' %}
 
 <div class="flickity-section-{{ section.id }} flickity-index-slider item" style="background-color: {{ section.settings.bg }}">
@@ -12,17 +16,21 @@
           "cellAlign": "{{ cell_align }}",
           "pageDots": false,
           "freeScroll": true,
-          "contain": true,
+                       "imagesLoaded": true,
+                       "accessibility": false,
+        
+                       
+           "autoPlay" : {{auto_play}},
           "wrapAround": {{ wrap_around }}
         }'>
       {% for block in section.blocks %}
-        {% assign block_img = block.settings.img %}
-        {% assign block_url = block_product.selected_or_first_available_variant %}
-        {% assign featured_img_src = block_first_variant.featured_img.src | default: block_product.featured_image.src %}
+        
+       
+        {% assign featured_img_src =block.settings.image  %}
         <div class="carousel__cell" style="width:{{ section.settings.cell_width }};margin-right:{{ section.settings.mr }}px">
-          {% if block.settings.img != blank %}
-            <a href="{{ block.settings.url }}">
-              <img src="{{ block.settings.img | img_url: img_width }}" alt="{{ block.settings.img_alt }}" />
+          {% if block.settings.image != blank %}
+            <a href="{{ block.settings.link }}">
+              <img src="{{ featured_img_src | img_url: img_width }}"  />
             </a>
           {% else %}
             {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -127,13 +135,29 @@
         ],
         "default": "true"
       },
+     {
+        "type": "radio",
+        "id": "auto_play",
+        "label": "Enable auto play ",
+        "options": [
+          {
+            "value": "true",
+            "label": "True"
+          },
+          {
+            "value": "false",
+            "label": "False"
+          }
+        ],
+        "default": "true"
+      },
       {
         "type": "range",
         "id": "mr",
         "min": 0,
-        "max": 48,
+        "max": 100,
         "step": 1,
-        "unit": "px",
+        "unit": "%",
         "label": "Cell Margin Right",
         "default": 16,
         "info": "Save page to see changes."
@@ -146,12 +170,13 @@
         "settings": [
           {
             "type": "image_picker",
-            "id": "img",
-            "label": "Choose an Image"
-          },
+            "id": "image",
+            "label": "Choose an Image",
+			"info" : "Recommended image is "
+		},
           {
             "type": "url",
-            "id": "url",
+            "id": "link",
             "label": "Choose a Link"
           },
           {

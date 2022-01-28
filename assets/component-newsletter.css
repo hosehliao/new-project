@@ -9,6 +9,7 @@
 
 @media screen and (min-width: 750px) {
   .newsletter-form {
+    flex-direction: row;
     align-items: flex-start;
     margin: 0 auto;
     max-width: 36rem;
@@ -35,6 +36,12 @@
 @media screen and (min-width: 750px) {
   .newsletter-form__message {
     justify-content: flex-start;
+  }
+
+  .newsletter-form__message--success {
+    position: absolute;
+    left: 0;
+    bottom: -65%;
   }
 }
 

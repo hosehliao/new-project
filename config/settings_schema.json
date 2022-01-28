@@ -2,7 +2,7 @@
   {
     "name": "theme_info",
     "theme_name": "Dawn",
-    "theme_version": "2.5.0",
+    "theme_version": "2.2.0",
     "theme_author": "Shopify",
     "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn",
     "theme_support_url": "https:\/\/support.shopify.com\/"
@@ -29,13 +29,6 @@
         "info": "t:settings_schema.colors.settings.colors_accent_1.info"
       },
       {
-        "type": "color",
-        "id": "colors_accent_3",
-        "default": "#334FB4",
-        "label": "t:settings_schema.colors.settings.colors_accent_3.label",
-        "info": "t:settings_schema.colors.settings.colors_accent_3.info"
-      },
-      {
         "id": "gradient_accent_1",
         "type": "color_background",
         "label": "t:settings_schema.colors.settings.gradient_accent_1.label"
@@ -50,6 +43,19 @@
         "id": "gradient_accent_2",
         "type": "color_background",
         "label": "t:settings_schema.colors.settings.gradient_accent_2.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_accent_3",
+        "default": "#ff0000",
+        "label": "t:settings_schema.colors.settings.colors_accent_3.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_accent_4",
+        "default": "#ff0000",
+        "label": "t:settings_schema.colors.settings.colors_accent_4.label",
+        "info": "t:settings_schema.colors.settings.colors_accent_4.info"
       },
       {
         "type": "header",
@@ -108,16 +114,6 @@
         "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
       {
-        "type": "range",
-        "id": "heading_scale",
-        "min": 100,
-        "max": 150,
-        "step": 5,
-        "unit": "%",
-        "label": "t:settings_schema.typography.settings.heading_scale.label",
-        "default": 100
-      },
-      {
         "type": "header",
         "content": "t:settings_schema.typography.settings.header__2.content"
       },
@@ -127,16 +123,6 @@
         "default": "assistant_n4",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
-      },
-      {
-        "type": "range",
-        "id": "body_scale",
-        "min": 100,
-        "max": 130,
-        "step": 5,
-        "unit": "%",
-        "label": "t:settings_schema.typography.settings.body_scale.label",
-        "default": 100
       }
     ]
   },
@@ -158,6 +144,10 @@
           {
             "value": "accent-2",
             "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__3.label"
+          },
+          {
+            "value": "accent-3",
+            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__4.label"
           },
           {
             "value": "background-2",
@@ -182,6 +172,26 @@
         ],
         "default": "inverse",
         "label": "t:settings_schema.styles.settings.sold_out_badge_color_scheme.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_product_card_sale_percent",
+        "label": "Enable Sale percent in product cards",
+        "default": true,
+        "info": "Sale percent is added on product each product card."
+      },
+      {
+        "type": "checkbox",
+        "id": "show_product_sale_badge",
+        "label": "Enable Product Sale badge",
+        "default": true,
+        "info": "Sale badge is added on product image slider."
+      },
+      {
+        "type": "color",
+        "id": "product_sale_badge_color",
+        "label": "Product sale badge color",
+        "default": "#a52a2a"
       },
       {
         "type": "header",
@@ -353,6 +363,51 @@
         "id": "currency_code_enabled",
         "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": "Currency Converter",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/help-script-find-money-formats)."
+      },
+      {
+        "type": "checkbox",
+        "id": "show_multiple_currencies",
+        "label": "Enable Currency Conversion",
+        "default": true,
+        "info": "Even though prices are displayed in different currencies, orders will still be processed in your store's currency."
+      },
+      {
+        "type": "select",
+        "id": "currency_format",
+        "label": "Format",
+        "options": [
+          {
+            "value": "money_format",
+            "label": "Without Currency ($10.00)"
+          },
+          {
+            "value": "money_with_currency_format",
+            "label": "With Currency ($10.00 CAD)"
+          }
+        ],
+        "default": "money_with_currency_format"
+      },
+      {
+        "type": "text",
+        "id": "supported_currencies",
+        "label": "Supported Currencies",
+        "default": "CAD USD MYR",
+        "info": "Use the country's ISO [currency code](http:\/\/www.xe.com\/iso4217.php). Separate your currency codes with a space."
+      },
+      {
+        "type": "text",
+        "id": "default_currency",
+        "label": "Default Currency",
+        "default": "MYR"
       }
     ]
   }

@@ -64,12 +64,6 @@
         "type_body_font": {
           "label": "フォント",
           "info": "異なるフォントを選択すると、ストアの速度に影響を与える可能性があります。[システムフォントについて詳しく知る。](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
-        },
-        "heading_scale": {
-          "label": "フォント・サイズ・スケール"
-        },
-        "body_scale": {
-          "label": "フォント・サイズ・スケール"
         }
       }
     },
@@ -123,6 +117,21 @@
     "social-media": {
       "name": "SNS",
       "settings": {
+        "share_facebook": {
+          "label": "Facebookでシェアする"
+        },
+        "share_twitter": {
+          "label": "Twitterにツイートする"
+        },
+        "share_pinterest": {
+          "label": "Pinterestでピン留めする"
+        },
+        "header__1": {
+          "content": "SNSの共有オプション"
+        },
+        "header__2": {
+          "content": "ソーシャルアカウント"
+        },
         "social_twitter_link": {
           "label": "Twitter",
           "info": "https:\/\/twitter.com\/shopify"
@@ -380,7 +389,8 @@
         }
       },
       "presets": {
-        "name": "コラージュ"
+        "name": "コラージュ",
+        "category": "画像"
       }
     },
     "collection-list": {
@@ -441,13 +451,15 @@
         }
       },
       "presets": {
-        "name": "コレクションリスト"
+        "name": "コレクションリスト",
+        "category": "コレクション"
       }
     },
     "contact-form": {
       "name": "お問い合わせフォーム",
       "presets": {
-        "name": "お問い合わせフォーム"
+        "name": "お問い合わせフォーム",
+        "category": "購入者エンゲージメント"
       }
     },
     "custom-liquid": {
@@ -459,7 +471,8 @@
         }
       },
       "presets": {
-        "name": "カスタムLiquid"
+        "name": "カスタムLiquid",
+        "category": "テキスト"
       }
     },
     "featured-blog": {
@@ -479,7 +492,7 @@
         },
         "show_image": {
           "label": "記事のサムネイルを表示する",
-          "info": "画像のアスペクト比が3:2のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "画像のアスペクト比が2:3のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "soft_background": {
           "label": "サブ背景を表示する"
@@ -491,8 +504,28 @@
           "label": "執筆者を表示する"
         }
       },
+      "blocks": {
+        "title": {
+          "settings": {
+            "show_date": {
+              "label": "日付を表示する"
+            },
+            "show_author": {
+              "label": "執筆者を表示する"
+            }
+          },
+          "name": "タイトル"
+        },
+        "summary": {
+          "name": "サマリー"
+        },
+        "link": {
+          "name": "リンク"
+        }
+      },
       "presets": {
-        "name": "ブログ記事"
+        "name": "ブログ記事",
+        "category": "ブログ"
       }
     },
     "featured-collection": {
@@ -546,7 +579,8 @@
         }
       },
       "presets": {
-        "name": "特集コレクション"
+        "name": "特集コレクション",
+        "category": "コレクション"
       }
     },
     "footer": {
@@ -650,7 +684,7 @@
           "label": "ロゴの幅をカスタマイズする"
         },
         "logo_position": {
-          "label": "デスクトップのロゴ位置",
+          "label": "大画面でのロゴの位置",
           "options__1": {
             "label": "中央部左側"
           },
@@ -659,8 +693,7 @@
           },
           "options__3": {
             "label": "上部中央"
-          },
-          "info": "位置はモバイル用に自動で最適化されます。"
+          }
         },
         "menu": {
           "label": "メニュー"
@@ -701,6 +734,18 @@
         "image_2": {
           "label": "2番目の画像"
         },
+        "desktop_text_box_position": {
+          "options__1": {
+            "label": "上"
+          },
+          "options__2": {
+            "label": "中央"
+          },
+          "options__3": {
+            "label": "下"
+          },
+          "label": "デスクトップのテキスト位置"
+        },
         "color_scheme": {
           "options__1": {
             "label": "アクセント1"
@@ -718,17 +763,16 @@
             "label": "反転"
           },
           "label": "配色",
-          "info": "コンテナが表示された時に表示。"
+          "info": "テキストボックスが表示時に表示される"
         },
         "stack_images_on_mobile": {
           "label": "モバイルで画像を重ねる"
         },
         "adapt_height_first_image": {
-          "label": "セクションの高さを最初の画像サイズに合わせる",
-          "info": "チェックすると、画像バナーの高さ設定が上書きされます。"
+          "label": "セクションの高さを最初の画像サイズに合わせる"
         },
         "show_text_box": {
-          "label": "デスクトップ上にコンテナを表示"
+          "label": "デスクトップ上にテキストボックスを表示する"
         },
         "image_overlay_opacity": {
           "label": "画像のオーバーレイ不透明率"
@@ -737,74 +781,7 @@
           "content": "モバイルのレイアウト"
         },
         "show_text_below": {
-          "label": "モバイル上にコンテナを表示"
-        },
-        "image_height": {
-          "label": "バナーの高さ",
-          "options__1": {
-            "label": "小"
-          },
-          "options__2": {
-            "label": "中"
-          },
-          "options__3": {
-            "label": "大"
-          },
-          "info": "画像のアスペクト比が3:2のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "desktop_content_position": {
-          "options__1": {
-            "label": "左上"
-          },
-          "options__2": {
-            "label": "中央上"
-          },
-          "options__3": {
-            "label": "右上"
-          },
-          "options__4": {
-            "label": "左中央"
-          },
-          "options__5": {
-            "label": "中央"
-          },
-          "options__6": {
-            "label": "右中央"
-          },
-          "options__7": {
-            "label": "左下"
-          },
-          "options__8": {
-            "label": "中央下"
-          },
-          "options__9": {
-            "label": "右下"
-          },
-          "label": "デスクトップのコンテンツ位置"
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "左"
-          },
-          "options__2": {
-            "label": "中央"
-          },
-          "options__3": {
-            "label": "右"
-          },
-          "label": "デスクトップのコンテンツアラインメント"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "左"
-          },
-          "options__2": {
-            "label": "中央"
-          },
-          "options__3": {
-            "label": "右"
-          },
-          "label": "モバイルのコンテンツアライメント"
+          "label": "画像下にテキストを表示する"
         }
       },
       "blocks": {
@@ -820,7 +797,7 @@
               "options__2": {
                 "label": "大"
               },
-              "label": "見出しのサイズ"
+              "label": "見出しのフォントサイズ"
             }
           },
           "name": "見出し"
@@ -829,18 +806,6 @@
           "settings": {
             "text": {
               "label": "説明"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "本文"
-              },
-              "options__2": {
-                "label": "字幕"
-              },
-              "options__3": {
-                "label": "大文字"
-              },
-              "label": "テキストスタイル"
             }
           },
           "name": "テキスト"
@@ -872,7 +837,8 @@
         }
       },
       "presets": {
-        "name": "画像バナー"
+        "name": "画像バナー",
+        "category": "画像"
       }
     },
     "image-with-text": {
@@ -891,8 +857,7 @@
           "options__3": {
             "label": "大"
           },
-          "label": "画像の高さ",
-          "info": "セクションの高さを決めます。"
+          "label": "画像比"
         },
         "color_scheme": {
           "options__1": {
@@ -917,68 +882,10 @@
             "label": "最初の画像"
           },
           "options__2": {
-            "label": "画像の表示秒数"
+            "label": "最初のテキスト"
           },
-          "label": "デスクトップ画像の配置",
+          "label": "デスクトップのレイアウト",
           "info": "最初の画像は、デフォルトのモバイルレイアウトです。"
-        },
-        "desktop_image_width": {
-          "options__1": {
-            "label": "小"
-          },
-          "options__2": {
-            "label": "中"
-          },
-          "options__3": {
-            "label": "大"
-          },
-          "label": "デスクトップ画像の幅",
-          "info": "画像はモバイル用に自動で最適化されます。"
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "左"
-          },
-          "options__3": {
-            "label": "右"
-          },
-          "label": "デスクトップのコンテンツアラインメント",
-          "options__2": {
-            "label": "中央"
-          }
-        },
-        "desktop_content_position": {
-          "options__1": {
-            "label": "上"
-          },
-          "options__2": {
-            "label": "中位"
-          },
-          "options__3": {
-            "label": "下"
-          },
-          "label": "デスクトップのコンテンツ位置"
-        },
-        "content_layout": {
-          "options__1": {
-            "label": "オーバーラップなし"
-          },
-          "options__2": {
-            "label": "オーバーラップ"
-          },
-          "label": "コンテンツのレイアウト"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "左"
-          },
-          "options__3": {
-            "label": "右"
-          },
-          "label": "モバイルのコンテンツアライメント",
-          "options__2": {
-            "label": "中央"
-          }
         }
       },
       "blocks": {
@@ -986,18 +893,6 @@
           "settings": {
             "heading": {
               "label": "見出し"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "小"
-              },
-              "options__2": {
-                "label": "中"
-              },
-              "options__3": {
-                "label": "大"
-              },
-              "label": "見出しのサイズ"
             }
           },
           "name": "見出し"
@@ -1005,19 +900,7 @@
         "text": {
           "settings": {
             "text": {
-              "label": "コンテンツ"
-            },
-            "text_style": {
-              "label": "テキストスタイル",
-              "options__1": {
-                "label": "本文"
-              },
-              "options__2": {
-                "label": "字幕"
-              },
-              "options__3": {
-                "label": "大文字"
-              }
+              "label": "説明"
             }
           },
           "name": "テキスト"
@@ -1033,39 +916,11 @@
             }
           },
           "name": "ボタン"
-        },
-        "caption": {
-          "name": "キャプション",
-          "settings": {
-            "text": {
-              "label": "テキスト"
-            },
-            "text_style": {
-              "label": "テキストスタイル",
-              "options__1": {
-                "label": "サブタイトル"
-              },
-              "options__2": {
-                "label": "大文字"
-              }
-            },
-            "caption_size": {
-              "label": "テキストサイズ",
-              "options__1": {
-                "label": "小"
-              },
-              "options__2": {
-                "label": "中"
-              },
-              "options__3": {
-                "label": "大"
-              }
-            }
-          }
         }
       },
       "presets": {
-        "name": "テキスト付き画像"
+        "name": "テキスト付き画像",
+        "category": "画像"
       }
     },
     "main-article": {
@@ -1106,6 +961,9 @@
         "content": {
           "name": "コンテンツ"
         },
+        "social_sharing": {
+          "name": "SNS共有ボタン"
+        },
         "share": {
           "name": "共有",
           "settings": {
@@ -1129,7 +987,8 @@
           "content": "ブログ記事のカード"
         },
         "show_image": {
-          "label": "記事のサムネイルを表示する"
+          "label": "記事のサムネイルを表示する",
+          "info": "画像のアスペクト比が2:3のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "paragraph": {
           "content": "ブロブ記事を編集して抜粋を変更します。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/online-store\/blogs\/writing-blogs#display-an-excerpt-from-a-blog-post)"
@@ -1141,14 +1000,13 @@
           "label": "執筆者を表示する"
         },
         "layout": {
-          "label": "デスクトップのレイアウト",
+          "label": "大画面でのレイアウト",
           "options__1": {
             "label": "グリッド"
           },
           "options__2": {
             "label": "コラージュ"
-          },
-          "info": "モバイルでは投稿が重複してしまいます。"
+          }
         },
         "image_height": {
           "label": "記事のサムネイルの高さ",
@@ -1164,7 +1022,26 @@
           "options__4": {
             "label": "大"
           },
-          "info": "画像のアスペクト比が3:2のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "画像のアスペクト比が2:3のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+        }
+      },
+      "blocks": {
+        "title": {
+          "settings": {
+            "show_date": {
+              "label": "日付を表示する"
+            },
+            "show_author": {
+              "label": "執筆者を表示する"
+            }
+          },
+          "name": "タイトル"
+        },
+        "summary": {
+          "name": "サマリー"
+        },
+        "link": {
+          "name": "リンク"
         }
       }
     },
@@ -1237,6 +1114,9 @@
         "header__1": {
           "content": "絞り込みと並び替え"
         },
+        "header__2": {
+          "content": "絞り込みと並び替え"
+        },
         "enable_tags": {
           "label": "絞り込みを有効にする",
           "info": "[絞り込みをカスタマイズする](\/admin\/menus)"
@@ -1254,8 +1134,11 @@
         "show_image_outline": {
           "label": "画像の枠線を表示する"
         },
+        "enable_sort": {
+          "label": "並べ替えを有効にする"
+        },
         "collapse_on_larger_devices": {
-          "label": "デスクトップで折りたたむ"
+          "label": "大画面で折りたたむ"
         },
         "show_rating": {
           "label": "商品の評価を表示",
@@ -1430,6 +1313,10 @@
         },
         "share": {
           "settings": {
+            "header": {
+              "content": "共有",
+              "info": "オンラインストアからSNSにリンクを投稿すると、そのページの記事のサムネイルが表示されます。[詳しくはこちら](https:\/\/help.shopify.com\/ja\/manual\/online-store\/images\/showing-social-media-thumbnail-images)。オンラインストアのタイトルと説明を設定します。[詳しくはこちら](https:\/\/help.shopify.com\/ja\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+            },
             "featured_image_info": {
               "content": "SNSの投稿にリンクを含めると、そのページの記事のサムネイルがプレビュー画像として表示されます。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)。"
             },
@@ -1585,44 +1472,10 @@
           "label": "ビデオループを有効にする"
         },
         "enable_sticky_info": {
-          "label": "デスクトップ上のコンテンツ固定表示を有効にする"
+          "label": "大画面で商品情報のスティッキー表示を有効にする"
         },
         "hide_variants": {
           "label": "バリエーションを選択した後、他のバリエーションのメディアを非表示にする"
-        },
-        "gallery_layout": {
-          "label": "デスクトップのレイアウト",
-          "options__1": {
-            "label": "スタックされました"
-          },
-          "options__2": {
-            "label": "サムネイル"
-          },
-          "options__3": {
-            "label": "サムネイルカルーセル"
-          }
-        },
-        "media_size": {
-          "label": "デスクトップのメディアサイズ",
-          "options__1": {
-            "label": "小"
-          },
-          "options__2": {
-            "label": "中"
-          },
-          "options__3": {
-            "label": "大"
-          },
-          "info": "メディアはモバイル用に自動で最適化されます。"
-        },
-        "mobile_thumbnails": {
-          "label": "モバイルのレイアウト",
-          "options__1": {
-            "label": "サムネイルを表示する"
-          },
-          "options__2": {
-            "label": "サムネイルを非表示にする"
-          }
         }
       }
     },
@@ -1746,19 +1599,14 @@
             },
             "text": {
               "label": "説明"
-            },
-            "link_label": {
-              "label": "リンクラベル"
-            },
-            "link": {
-              "label": "リンク"
             }
           },
           "name": "列"
         }
       },
       "presets": {
-        "name": "マルチカラム"
+        "name": "マルチカラム",
+        "category": "画像"
       }
     },
     "newsletter": {
@@ -1811,7 +1659,8 @@
         }
       },
       "presets": {
-        "name": "メール登録"
+        "name": "メール登録",
+        "category": "購入者エンゲージメント"
       }
     },
     "page": {
@@ -1822,14 +1671,22 @@
         }
       },
       "presets": {
-        "name": "ページ"
+        "name": "ページ",
+        "category": "購入者エンゲージメント"
       }
     },
     "product-recommendations": {
       "name": "おすすめ商品",
       "settings": {
+        "header": {
+          "info": "ダイナミックレコメンデーションでは、注文や商品の情報を利用して、時間の経過とともに変化し改善していきます。[詳しくはこちら](https:\/\/help.shopify.com\/ja\/themes\/development\/recommended-products)"
+        },
         "heading": {
           "label": "見出し"
+        },
+        "header__1": {
+          "content": "おすすめ商品",
+          "info": "動的レコメンデーションでは、注文や商品の情報を利用して、時間の経過とともに変化し改善していきます。[詳しくはこちら] (https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "商品カード"
@@ -1905,7 +1762,7 @@
               "options__2": {
                 "label": "中"
               },
-              "label": "見出しのサイズ",
+              "label": "見出しのフォントサイズ",
               "options__3": {
                 "label": "大"
               }
@@ -1937,7 +1794,8 @@
         }
       },
       "presets": {
-        "name": "リッチテキスト"
+        "name": "リッチテキスト",
+        "category": "テキスト"
       }
     },
     "apps": {
@@ -2090,423 +1948,6 @@
       },
       "presets": {
         "name": "特集商品"
-      }
-    },
-    "email-signup-banner": {
-      "name": "メール登録者バナー",
-      "settings": {
-        "paragraph": {
-          "content": "メールサブスクリプションごとに、お客様アカウントが作成されます。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/customers)"
-        },
-        "image": {
-          "label": "背景画像"
-        },
-        "show_background_image": {
-          "label": "背景画像を表示"
-        },
-        "show_text_box": {
-          "label": "デスクトップ上にコンテナを表示"
-        },
-        "image_overlay_opacity": {
-          "label": "画像のオーバーレイ不透明率"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "アクセント1"
-          },
-          "options__2": {
-            "label": "アクセント2"
-          },
-          "options__3": {
-            "label": "背景1"
-          },
-          "options__4": {
-            "label": "背景2"
-          },
-          "options__5": {
-            "label": "反転"
-          },
-          "label": "配色",
-          "info": "コンテナが表示された時に表示"
-        },
-        "show_text_below": {
-          "label": "モバイルで画像の下にコンテンツを表示",
-          "info": "画像のアスペクト比が16:9のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "image_height": {
-          "label": "バナーの高さ",
-          "options__1": {
-            "label": "画像に合わせる"
-          },
-          "options__2": {
-            "label": "小"
-          },
-          "options__3": {
-            "label": "中"
-          },
-          "options__4": {
-            "label": "大"
-          },
-          "info": "画像のアスペクト比が16:9のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "desktop_content_position": {
-          "options__1": {
-            "label": "左上"
-          },
-          "options__2": {
-            "label": "中央上"
-          },
-          "options__3": {
-            "label": "右上"
-          },
-          "options__4": {
-            "label": "左中央"
-          },
-          "options__5": {
-            "label": "中央"
-          },
-          "options__6": {
-            "label": "右中央"
-          },
-          "options__7": {
-            "label": "左下"
-          },
-          "options__8": {
-            "label": "中央下"
-          },
-          "options__9": {
-            "label": "右下"
-          },
-          "label": "デスクトップのコンテンツ位置"
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "左"
-          },
-          "options__2": {
-            "label": "中央"
-          },
-          "options__3": {
-            "label": "右"
-          },
-          "label": "デスクトップのコンテンツアラインメント"
-        },
-        "header": {
-          "content": "モバイルのレイアウト"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "左"
-          },
-          "options__2": {
-            "label": "中央"
-          },
-          "options__3": {
-            "label": "右"
-          },
-          "label": "モバイルのコンテンツアライメント"
-        }
-      },
-      "blocks": {
-        "heading": {
-          "name": "見出し",
-          "settings": {
-            "heading": {
-              "label": "見出し"
-            }
-          }
-        },
-        "paragraph": {
-          "name": "段落",
-          "settings": {
-            "paragraph": {
-              "label": "説明"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "本文"
-              },
-              "options__2": {
-                "label": "字幕"
-              },
-              "label": "テキストスタイル"
-            }
-          }
-        },
-        "email_form": {
-          "name": "メールフォーム"
-        }
-      },
-      "presets": {
-        "name": "メール登録者バナー"
-      }
-    },
-    "slideshow": {
-      "name": "スライドショー",
-      "settings": {
-        "layout": {
-          "label": "レイアウト",
-          "options__1": {
-            "label": "全幅"
-          },
-          "options__2": {
-            "label": "グリッド"
-          }
-        },
-        "slide_height": {
-          "label": "スライドの高さ",
-          "options__1": {
-            "label": "最初の画像に対応"
-          },
-          "options__2": {
-            "label": "小"
-          },
-          "options__3": {
-            "label": "中"
-          },
-          "options__4": {
-            "label": "大"
-          }
-        },
-        "slider_visual": {
-          "label": "ページネーションのスタイル",
-          "options__1": {
-            "label": "カウンター"
-          },
-          "options__2": {
-            "label": "ドット"
-          },
-          "options__3": {
-            "label": "数字"
-          }
-        },
-        "heading_size": {
-          "label": "見出しのフォントサイズ",
-          "options__1": {
-            "label": "中"
-          },
-          "options__2": {
-            "label": "大"
-          }
-        },
-        "box_align": {
-          "label": "デスクトップのコンテンツ位置",
-          "options__1": {
-            "label": "左上"
-          },
-          "options__2": {
-            "label": "上部中央"
-          },
-          "options__3": {
-            "label": "右上"
-          },
-          "options__4": {
-            "label": "中央部左側"
-          },
-          "options__5": {
-            "label": "中心"
-          },
-          "options__6": {
-            "label": "中央部右側"
-          },
-          "options__7": {
-            "label": "左下"
-          },
-          "options__8": {
-            "label": "下部中央"
-          },
-          "options__9": {
-            "label": "右下"
-          }
-        },
-        "show_text_box": {
-          "label": "デスクトップ上にコンテナを表示"
-        },
-        "text_alignment": {
-          "label": "デスクトップのコンテンツアラインメント",
-          "option_1": {
-            "label": "左"
-          },
-          "option_2": {
-            "label": "中央"
-          },
-          "option_3": {
-            "label": "右"
-          }
-        },
-        "image_overlay_opacity": {
-          "label": "画像のオーバーレイ不透明率"
-        },
-        "auto_rotate": {
-          "label": "スライドの自動切り替え"
-        },
-        "change_slides_speed": {
-          "label": "スライドを変更する間隔"
-        },
-        "color_scheme": {
-          "label": "ボックスの配色",
-          "info": "コンテナが表示された時に表示。",
-          "options__1": {
-            "label": "アクセント1"
-          },
-          "options__2": {
-            "label": "アクセント2"
-          },
-          "options__3": {
-            "label": "背景1"
-          },
-          "options__4": {
-            "label": "背景2"
-          },
-          "options__5": {
-            "label": "反転"
-          }
-        },
-        "mobile": {
-          "content": "モバイルのレイアウト"
-        },
-        "text_alignment_mobile": {
-          "label": "モバイルのコンテンツアライメント",
-          "options__1": {
-            "label": "左"
-          },
-          "options__2": {
-            "label": "中央"
-          },
-          "options__3": {
-            "label": "右"
-          }
-        },
-        "show_text_below": {
-          "label": "モバイルで画像の下にコンテンツを表示する"
-        },
-        "accessibility": {
-          "content": "アクセシビリティ",
-          "label": "スライドショーの説明",
-          "info": "スクリーンリーダーを使用しているお客様向けにスライドショーの説明を記入してください。"
-        }
-      },
-      "blocks": {
-        "slide": {
-          "name": "スライド",
-          "settings": {
-            "image": {
-              "label": "画像"
-            },
-            "heading": {
-              "label": "見出し"
-            },
-            "subheading": {
-              "label": "小見出し"
-            },
-            "button_label": {
-              "label": "ボタンのラベル",
-              "info": "ボタンを非表示にするには、ラベルを空白にします。"
-            },
-            "link": {
-              "label": "ボタンのリンク",
-              "info": "ボタンを非表示にするには、ラベルを空白にします。"
-            },
-            "secondary_style": {
-              "label": "アウトラインボタンのスタイルを使用する"
-            },
-            "heading_size": {
-              "label": "見出しのサイズ",
-              "options__1": {
-                "label": "小"
-              },
-              "options__2": {
-                "label": "中"
-              },
-              "options__3": {
-                "label": "大"
-              }
-            },
-            "box_align": {
-              "label": "デスクトップのコンテンツ位置",
-              "options__1": {
-                "label": "左上"
-              },
-              "options__2": {
-                "label": "上部中央"
-              },
-              "options__3": {
-                "label": "右上"
-              },
-              "options__4": {
-                "label": "中央部左側"
-              },
-              "options__5": {
-                "label": "中央"
-              },
-              "options__6": {
-                "label": "中央部右側"
-              },
-              "options__7": {
-                "label": "左下"
-              },
-              "options__8": {
-                "label": "下部中央"
-              },
-              "options__9": {
-                "label": "右下"
-              },
-              "info": "位置はモバイル用に自動で最適化されます。"
-            },
-            "show_text_box": {
-              "label": "デスクトップ上にコンテナを表示"
-            },
-            "text_alignment": {
-              "label": "デスクトップのコンテンツ配置",
-              "option_1": {
-                "label": "左"
-              },
-              "option_2": {
-                "label": "中央"
-              },
-              "option_3": {
-                "label": "右"
-              }
-            },
-            "image_overlay_opacity": {
-              "label": "画像のオーバーレイ不透明率"
-            },
-            "color_scheme": {
-              "label": "配色",
-              "info": "コンテナが表示された時に表示。",
-              "options__1": {
-                "label": "アクセント1"
-              },
-              "options__2": {
-                "label": "アクセント2"
-              },
-              "options__3": {
-                "label": "背景1"
-              },
-              "options__4": {
-                "label": "背景2"
-              },
-              "options__5": {
-                "label": "反転"
-              }
-            },
-            "text_alignment_mobile": {
-              "label": "モバイルのコンテンツ配置",
-              "options__1": {
-                "label": "左"
-              },
-              "options__2": {
-                "label": "中央"
-              },
-              "options__3": {
-                "label": "右"
-              }
-            }
-          }
-        }
-      },
-      "presets": {
-        "name": "スライドショー"
       }
     }
   }

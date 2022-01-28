@@ -7,6 +7,7 @@
       "login_form_password_placeholder": "Tu contraseña",
       "login_form_error": "Contraseña incorrecta",
       "login_form_submit": "Ingresar",
+      "modal": "Modal de contraseña",
       "admin_link_html": "¿Eres el propietario de la tienda? <a href=\"\/admin\" class=\"link underlined-link\">Inicia sesión aquí<\/a>",
       "powered_by_shopify_html": "Esta tienda contará con tecnología Shopify {{ shopify }}"
     },
@@ -44,14 +45,10 @@
     },
     "share": {
       "copy_to_clipboard": "Copiar enlace",
+      "share": "Compartir",
       "share_url": "Enlace",
       "success_message": "Enlace copiado al portapapeles",
       "close": "Cerrar compartición"
-    },
-    "slider": {
-      "of": "de",
-      "next_slide": "Diapositiva a la derecha",
-      "previous_slide": "Diapositiva a la izquierda"
     }
   },
   "newsletter": {
@@ -70,7 +67,10 @@
       "new_window": "Se abre en una nueva ventana.",
       "external": "Se abre el sitio web externo."
     },
+    "next_slide": "Diapositiva a la derecha",
+    "previous_slide": "Diapositiva a la izquierda",
     "loading": "Cargando...",
+    "of": "de",
     "skip_to_product_info": "Ir directamente a la información del producto",
     "total_reviews": "reseñas totales",
     "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas"
@@ -79,6 +79,7 @@
     "article": {
       "blog": "Blog",
       "read_more_title": "Más información: {{ title }}",
+      "read_more": "Más información",
       "comments": {
         "one": "{{ count }} comentario",
         "other": "{{ count }} comentarios"
@@ -103,7 +104,7 @@
     "product": {
       "add_to_cart": "Agregar al carrito",
       "description": "Descripción",
-      "on_sale": "Oferta",
+      "on_sale": "En oferta",
       "product_variants": "Variantes de producto",
       "quantity": {
         "label": "Cantidad",
@@ -114,7 +115,7 @@
       "price": {
         "from_price_html": "A partir de {{ price }}",
         "regular_price": "Precio habitual",
-        "sale_price": "Precio de oferta",
+        "sale_price": "Precio de venta",
         "unit_price": "Precio unitario"
       },
       "share": "Compartir este producto",
@@ -134,14 +135,10 @@
         "refresh": "Actualizar"
       },
       "media": {
-        "open_media": "Abrir elemento multimedia {{ index }} en una ventana modal",
+        "open_featured_media": "Abrir elemento multimedia destacado en vista de galería",
+        "open_media": "Abrir elemento multimedia {{ index }} en vista de galería",
         "play_model": "Reproducir el visor 3D",
-        "play_video": "Reproducir video",
-        "gallery_viewer": "Visor de la galería",
-        "load_image": "Cargar la imagen {{ index }} en la vista de la galería",
-        "load_model": "Cargar el modelo 3D {{ index }} en la vista de la galería",
-        "load_video": "Reproducir el video {{ index }} en la vista de la galería",
-        "image_available": "La imagen {{ index }} ya está disponible en la vista de la galería"
+        "play_video": "Reproducir video"
       },
       "view_full_details": "Ver todos los detalles",
       "include_taxes": "Impuesto incluido.",
@@ -232,7 +229,7 @@
       "checkout": "Pagar pedido",
       "empty": "Tu carrito esta vacío",
       "cart_error": "Hubo un error al actualizar tu carrito de compra. Inténtalo de nuevo.",
-      "cart_quantity_error_html": "Solo puedes agregar {{ quantity }} de este artículo a tu carrito.",
+      "cart_quantity_error_html": "Solo puedes agregar [quantity] de este artículo a tu carrito.",
       "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago",
       "taxes_included_but_shipping_at_checkout": "Impuesto incluido y los gastos de envío se calculan en la pantalla de pago",
       "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago.",
@@ -250,7 +247,8 @@
       }
     },
     "footer": {
-      "payment": "Formas de pago"
+      "payment": "Formas de pago",
+      "social_placeholder": "¡Síguenos en las redes sociales!"
     },
     "featured_blog": {
       "view_all": "Ver todo",
@@ -271,15 +269,6 @@
     },
     "video": {
       "load_video": "Cargar video: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Cargar diapositiva",
-      "previous_slideshow": "Diapositiva anterior",
-      "next_slideshow": "Diapositiva siguiente",
-      "pause_slideshow": "Pausar la presentación",
-      "play_slideshow": "Reproducir la presentación",
-      "carousel": "Carrusel",
-      "slide": "Diapositiva"
     }
   },
   "localization": {

@@ -7,6 +7,7 @@
       "login_form_password_placeholder": "Your password",
       "login_form_error": "Wrong password!",
       "login_form_submit": "Enter",
+      "modal": "Password modal",
       "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"link underlined-link\">Log in here<\/a>",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
@@ -47,11 +48,6 @@
       "copy_to_clipboard": "Copy link",
       "share_url": "Link",
       "success_message": "Link copied to clipboard"
-    },
-    "slider": {
-      "of": "of",
-      "next_slide": "Slide right",
-      "previous_slide": "Slide left"
     }
   },
   "newsletter": {
@@ -71,6 +67,9 @@
       "new_window": "Opens in a new window.",
       "external": "Opens external website."
     },
+    "of": "of",
+    "next_slide": "Slide right",
+    "previous_slide": "Slide left",
     "loading": "Loading...",
     "total_reviews": "total reviews",
     "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars"
@@ -106,12 +105,8 @@
       "on_sale": "Sale",
       "product_variants": "Product variants",
       "media": {
-        "gallery_viewer": "Gallery Viewer",
-        "load_image": "Load image {{ index }} in gallery view",
-        "load_model": "Load 3D Model {{ index }} in gallery view",
-        "load_video": "Play video {{ index }} in gallery view",
-        "image_available": "Image {{ index }} is now available in gallery view",
-        "open_media": "Open media {{ index }} in modal",
+        "open_featured_media": "Open featured media in gallery view",
+        "open_media": "Open media {{ index }} in gallery view",
         "play_model": "Play 3D Viewer",
         "play_video": "Play video"
       },
@@ -232,7 +227,7 @@
       "checkout": "Check out",
       "empty": "Your cart is empty",
       "cart_error": "There was an error while updating your cart. Please try again.",
-      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
+      "cart_quantity_error_html": "You can only add [quantity] of this item to your cart.",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
       "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
@@ -271,15 +266,6 @@
     },
     "video": {
       "load_video": "Load video: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Load slide",
-      "previous_slideshow": "Previous slide",
-      "next_slideshow": "Next slide",
-      "pause_slideshow": "Pause slideshow",
-      "play_slideshow": "Play slideshow",
-      "carousel": "Carousel",
-      "slide": "Slide"
     }
   },
   "localization": {
@@ -409,6 +395,11 @@
       "expired": "Expired",
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
+    }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }

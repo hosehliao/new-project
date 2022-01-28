@@ -1,0 +1,60 @@
+<section class="accordion-group">
+
+  <div class="accordion-main-container">
+    <div class="accordion-group-heading">
+      <h2 class="h2"> {{ section.settings.heading }} </h2>
+    </div>
+    {% for block in section.blocks %}
+    <div class="accordion-container">
+      {% if block.settings.heading != blank %}
+      <button class="accordion">{{ block.settings.heading }}</button>
+      {% endif %}
+      <div class="panel">
+        {% if block.settings.discription != blank %}
+        <p> {{ block.settings.discription }} </p>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Accordion Group",
+	"class": "spaced-section spaced-section--full-width",
+    "settings": [
+	{
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    }
+	],
+	"max_blocks": 30,
+    "blocks": [
+	{
+	  "type": "accordion",
+      "name": "Accordion",
+      "settings": [
+	{
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+	{
+      "type": "richtext",
+      "id": "discription",
+      "label": "Discription"
+    }
+	]
+  	}],
+
+"presets": [
+    {
+      "category": "Accordion Group",
+      "name": "Accordion Group",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

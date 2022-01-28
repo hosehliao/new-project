@@ -1,0 +1,173 @@
+<script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+<div class="home-slideshow" id="home-slideshow">
+  {% for block in section.blocks %}
+  <div class="home-slideshow-item">
+  {% if block.settings.link != blank %}
+  <a href="{{ block.settings.link }}">
+    {% endif %}
+    {% if block.settings.image != blank %}
+    <picture>
+      {% if block.settings.mobile-image != blank %}
+      <source media="(max-width:768px)" srcset="{{ block.settings.mobile-image |img_url: 'master' }}">
+      {% endif %}
+      <img src="{{ block.settings.image |img_url: 'master' }}" loading="lazy" class="home-slideshow-img">
+    </picture>
+    {% endif %}
+    
+    <div class="home-slideshow-text" style="top: {{ block.settings.slideshow_top_position }}%;left: {{ block.settings.slideshow_left_position }}%;">
+      {% if block.settings.title != blank %}
+      <h2 class="banner__heading h0"> <span style="color: {{ block.settings.title_color }};">{{ block.settings.title }}</span> </h2>
+      {% endif %}
+      {% if block.settings.subheading != blank %}
+      <div class="banner__text"> <span style="color: {{ block.settings.subheading_color }};">{{ block.settings.subheading }}</span> </div>
+      {% endif %}
+      {% if block.settings.btn_text != blank %}
+      <div class="banner__buttons">
+      <a href="{{ block.settings.btn_link }}" class="button button--primary" style="background: {{ block.settings.btn_color }};color: {{ block.settings.btn_text_color }};">{{ block.settings.btn_text }}</a>
+      </div>
+      {% endif %}
+    </div>
+    
+    {% if block.settings.link != blank %}
+  </a>
+  {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+
+ .home-slideshow-text .banner__text {
+    max-width: 80%;
+    text-align: center;
+} 
+.home-slideshow-text .banner__heading {
+    text-align: center;
+}
+.home-slideshow-text .banner__buttons {
+  text-align: center;}
+ 
+  .slick-dots > li {
+	 display: inline-block;
+}
+ .slick-dots > li:only-child {
+	 display: none;
+}
+ 
+}
+ 
+}  
+
+</style>
+ 
+{% schema %}
+  {
+    "name": "Home Slideshow",
+	"class": "home-slideshow-container",
+    "settings": [
+
+	],
+	"max_blocks": 10,
+  	"blocks": [
+	{
+	  "type": "image",
+      "name": "Image slide",
+      "settings": [
+    
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+	{
+      "type": "image_picker",
+      "id": "mobile-image",
+      "label": "Mobile Image"
+    },
+	{
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+	{
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+     },
+	{
+        "type": "text",
+        "id": "subheading",
+        "label": "subheading"
+     },
+     {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+     },
+	 {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button Text"
+     },
+	 {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+	  "default": "#fff"
+    },
+	{
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color",
+      "default": "#fff"
+    },
+	{
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "Button text color",
+       "default": "#000"
+    },
+	{
+      "type": "color",
+      "id": "btn_color",
+      "label": "Button color",
+      "default": "#fff"
+    },
+	{
+      "type": "range",
+      "id": "slideshow_top_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Slideshow Top Position",
+      "default": 0
+    },
+	{
+      "type": "range",
+      "id": "slideshow_left_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Slideshow Left Position",
+      "default": 0
+    }
+	
+  ]
+}],
+	"presets": [
+    {
+      "category": "Slideshow",
+      "name": "Home Slideshow"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+  

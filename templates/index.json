@@ -1,210 +1,485 @@
 {
   "sections": {
-    "16420439367d12c074": {
-      "type": "flickity",
+    "16385274701862cc87": {
+      "type": "home-slideshow",
       "blocks": {
-        "16420439367f5b467a-2": {
-          "type": "slide",
+        "530bcd9c-dae5-416b-8c6f-ddbcbb3ad6f6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHOPIFY-BN_03acac94-897e-4b68-9d62-d32766e2eed9.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "btn_link": "",
+            "btn_text": "",
+            "title_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "btn_text_color": "#000000",
+            "btn_color": "#ffffff",
+            "slideshow_top_position": 0,
+            "slideshow_left_position": 0
+          }
+        },
+        "99c3713d-5834-4be4-8e8e-543bf3075aee": {
+          "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/max_mara_532f0bab-aa79-4c70-8056-9201a2f949c1.jpg",
-            "link": "https:\/\/www.youtube.com"
-          }
-        },
-        "16420439367f5b467a-3": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-7_160x160_2x_0ad355df-d9fc-46b9-8927-a786bf6f7ae8.png",
-            "link": "shopify:\/\/collections\/summer-collection"
-          }
-        },
-        "f9a66ade-3940-47e5-bdb0-bf4495c9347a": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-10_160x160_2x_1336d2e9-e065-4e7f-95b9-cddce33d746a.png",
-            "link": ""
-          }
-        },
-        "fe78972a-c3c7-4e15-b9c8-10f3ca537054": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDO-Content-CMDO-Content-Carousel-9arousel-aigner_160x160_2x_dc60aebf-5d87-45f3-9645-8ccd4d28bba7.png",
-            "link": "shopify:\/\/products\/leather-short-wallets-swa31-a583s"
-          }
-        },
-        "d4b1a920-b998-470a-8bde-a0ba2551ff64": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-1_160x160_2x_638f598b-9a93-49ad-b49b-6890a32c3df1.png",
-            "link": "shopify:\/\/collections\/laptopbags"
-          }
-        },
-        "16420439367f5b467a-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-3_160x160_2x_092e4b55-8f40-4f73-94c5-767f11db2b23.png",
-            "link": ""
-          }
-        },
-        "416dd62a-fbf7-4ae8-94bb-541849a9e5d9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-2_160x160_2x_841cb204-863a-45bb-b515-136634f5d6ca.png",
-            "link": "shopify:\/\/collections\/leather"
-          }
-        },
-        "16420439367f5b467a-0": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/max_mara_532f0bab-aa79-4c70-8056-9201a2f949c1.jpg",
-            "link": "https:\/\/www.meekco.asia"
-          }
-        },
-        "50625f4b-a161-43cc-a666-9afa5a4225f0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-10_160x160_2x_767dd47b-7a16-4e20-b252-72e4cfa0f919.png",
-            "link": "shopify:\/\/blogs\/news"
-          }
-        },
-        "cabeb618-58bc-4781-9681-2667f36268aa": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-8_160x160_2x_d7f8685f-7233-44d6-bfd5-d4568dd3508e.png",
-            "link": "shopify:\/\/pages\/contact"
+            "image": "shopify:\/\/shop_images\/SHOPIFY-BN_03acac94-897e-4b68-9d62-d32766e2eed9.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "btn_link": "",
+            "btn_text": "",
+            "title_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "btn_text_color": "#000000",
+            "btn_color": "#ffffff",
+            "slideshow_top_position": 0,
+            "slideshow_left_position": 0
           }
         }
       },
       "block_order": [
-        "16420439367f5b467a-2",
-        "16420439367f5b467a-3",
-        "f9a66ade-3940-47e5-bdb0-bf4495c9347a",
-        "fe78972a-c3c7-4e15-b9c8-10f3ca537054",
-        "d4b1a920-b998-470a-8bde-a0ba2551ff64",
-        "16420439367f5b467a-1",
-        "416dd62a-fbf7-4ae8-94bb-541849a9e5d9",
-        "16420439367f5b467a-0",
-        "50625f4b-a161-43cc-a666-9afa5a4225f0",
-        "cabeb618-58bc-4781-9681-2667f36268aa"
+        "530bcd9c-dae5-416b-8c6f-ddbcbb3ad6f6",
+        "99c3713d-5834-4be4-8e8e-543bf3075aee"
       ],
       "settings": {
-        "bg": "#ffffff",
-        "title": "NEW ARRIVALS",
-        "wrap_around": "false",
-        "margin_right": 0
       }
     },
-    "image_banner": {
+    "1639045413449a66b6": {
+      "type": "multicolumn",
+      "blocks": {
+        "16390454134dc3cd4c-0": {
+          "type": "column",
+          "settings": {
+            "title": "⟲ Return and Refund Services",
+            "text": ""
+          }
+        },
+        "16390454134dc3cd4c-1": {
+          "type": "column",
+          "settings": {
+            "title": "☑︎ Warranty 90 Days",
+            "text": ""
+          }
+        },
+        "16390454134dc3cd4c-2": {
+          "type": "column",
+          "settings": {
+            "title": "✂︎ Premium Material",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16390454134dc3cd4c-0",
+        "16390454134dc3cd4c-1",
+        "16390454134dc3cd4c-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "16431019874e14fe0a": {
+      "type": "flickity",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16390459549c132146": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "163904595440f5a396-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/usp.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "163904595440f5a396-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/usp2.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "163904595440f5a396-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/usp3.jpg",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "163904595440f5a396-0",
+        "163904595440f5a396-1",
+        "163904595440f5a396-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1638871783416cd8ea": {
+      "type": "home-slideshow",
+      "disabled": true,
+      "blocks": {
+        "e6ebdc81-8665-40d9-84e2-146b98731632": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/98020d82-f8e5-4a83-8502-bd0393dd5571-1633999302-4cwdcmeli2_d_1200x563_800x375_400x188_0cf27cda-570a-4e2e-9d4e-102c7af4c72d.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "btn_link": "",
+            "btn_text": "",
+            "title_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "btn_text_color": "#000000",
+            "btn_color": "#ffffff",
+            "slideshow_top_position": 0,
+            "slideshow_left_position": 0
+          }
+        }
+      },
+      "block_order": [
+        "e6ebdc81-8665-40d9-84e2-146b98731632"
+      ],
+      "settings": {
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New",
+        "collection": "new-in",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "PUT YOUR BEST BEAUTY FORWARD",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With the Right Wallet and Bags, You can Conquer the World<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16340161620e69971e": {
+      "type": "collection-list",
+      "blocks": {
+        "16340161620e69971e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bags"
+          }
+        },
+        "16340161620e69971e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wallet"
+          }
+        }
+      },
+      "block_order": [
+        "16340161620e69971e-0",
+        "16340161620e69971e-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1643340376857f0ae6": {
+      "type": "new-slider",
+      "blocks": {
+        "1643340376ed82e0d1-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-8_160x160_2x_627ebd51-423d-4d74-a169-8a9ada48677c.png",
+            "link": "",
+            "title": ""
+          }
+        },
+        "1643340376ed82e0d1-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-8_160x160_2x_627ebd51-423d-4d74-a169-8a9ada48677c.png",
+            "link": "",
+            "title": ""
+          }
+        },
+        "1643340376ed82e0d1-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-8_160x160_2x_627ebd51-423d-4d74-a169-8a9ada48677c.png",
+            "link": "",
+            "title": ""
+          }
+        },
+        "1643340376ed82e0d1-3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-8_160x160_2x_627ebd51-423d-4d74-a169-8a9ada48677c.png",
+            "link": "",
+            "title": ""
+          }
+        },
+        "fbe044d4-d881-4211-b077-bb77ab5b092f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-8_160x160_2x_627ebd51-423d-4d74-a169-8a9ada48677c.png",
+            "link": "",
+            "title": ""
+          }
+        },
+        "36fd3830-dd0e-45d1-bb63-3b926ddeb95b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-8_160x160_2x_627ebd51-423d-4d74-a169-8a9ada48677c.png",
+            "link": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "1643340376ed82e0d1-0",
+        "1643340376ed82e0d1-1",
+        "1643340376ed82e0d1-2",
+        "1643340376ed82e0d1-3",
+        "fbe044d4-d881-4211-b077-bb77ab5b092f",
+        "36fd3830-dd0e-45d1-bb63-3b926ddeb95b"
+      ],
+      "settings": {
+        "bg": "",
+        "title": "Flickity Item Slider",
+        "img_width": 200,
+        "cell_align": "left",
+        "title_mb": 48,
+        "cell_width": "25%",
+        "wrap_around": "true",
+        "auto_play": "true",
+        "mr": 22
+      }
+    },
+    "1643104207aa7179df": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n#section-160791749324af9486{\ncolor:#fffff !important;\n}\n\n#section-footer{\nborder-top:1px solid #d6d6d6 !important;\nmargin-top:10px !important;\n}"
+      }
+    },
+    "1634016816457b8216": {
+      "type": "collection-list",
+      "blocks": {
+        "1634016816457b8216-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "leather-bag"
+          }
+        },
+        "1634016816457b8216-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tote-bag"
+          }
+        },
+        "1634016816457b8216-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "long-wallet"
+          }
+        },
+        "b788f45f-da43-4945-a33f-c42768bf09c2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "short-wallet"
+          }
+        }
+      },
+      "block_order": [
+        "1634016816457b8216-0",
+        "1634016816457b8216-1",
+        "1634016816457b8216-2",
+        "b788f45f-da43-4945-a33f-c42768bf09c2"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue_logo.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marie-claire-logo.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yahoo_news_logo.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "15a48a80-4562-4d19-a41b-8c4af608b6d7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LOGO-b.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3",
+        "15a48a80-4562-4d19-a41b-8c4af608b6d7"
+      ],
+      "settings": {
+        "title": "FEATURED IN",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1634024033dd154187": {
       "type": "image-banner",
       "blocks": {
-        "button": {
+        "1634024033dd154187-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MAKE IT YOURS",
+            "heading_size": "medium"
+          }
+        },
+        "1634024033dd154187-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "SHOP HERE",
+            "button_link_1": "shopify:\/\/collections",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
         }
       },
       "block_order": [
-        "button",
-        "heading"
+        "1634024033dd154187-0",
+        "1634024033dd154187-2"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/All_Collection_banner.jpg",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 20,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
-    "video": {
-      "type": "video",
-      "disabled": true,
+    "163516247114328dcf": {
+      "type": "instafeed",
       "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
+        "heading_font": "helvetica_n4",
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
       }
     },
-    "164309705843200051": {
-      "type": "custom-liquid",
+    "16433396437b8793cc": {
+      "type": "flickity",
       "disabled": true,
       "settings": {
-        "custom_liquid": ""
-      }
-    },
-    "1643097612c09f7a61": {
-      "type": "slideshow-bonia",
-      "blocks": {
-        "16430976121bb28ae2-0": {
-          "type": "image",
-          "settings": {
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "Slide title",
-            "title": "Tell your story",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "16430976121bb28ae2-1": {
-          "type": "image",
-          "settings": {
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "Slide title",
-            "title": "Tell your story",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16430976121bb28ae2-0",
-        "16430976121bb28ae2-1"
-      ],
-      "settings": {
-        "show_fullscreen": false,
-        "show_arrow": false,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "text_color": "#ffffff",
-        "button_color": "#363636",
-        "button_background": "#ffffff"
       }
     }
   },
   "order": [
-    "16420439367d12c074",
-    "image_banner",
-    "video",
-    "164309705843200051",
-    "1643097612c09f7a61"
+    "16385274701862cc87",
+    "1639045413449a66b6",
+    "16431019874e14fe0a",
+    "16390459549c132146",
+    "1638871783416cd8ea",
+    "featured_products",
+    "rich_text",
+    "16340161620e69971e",
+    "1643340376857f0ae6",
+    "1643104207aa7179df",
+    "1634016816457b8216",
+    "multi_column",
+    "1634024033dd154187",
+    "163516247114328dcf",
+    "16433396437b8793cc"
   ]
 }

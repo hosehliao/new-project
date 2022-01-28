@@ -64,12 +64,6 @@
         "type_body_font": {
           "label": "Lettertype",
           "info": "Als je een ander lettertype selecteert, kan dit de snelheid van je winkel beïnvloeden. Meer informatie over systeemlettertypen.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
-        },
-        "heading_scale": {
-          "label": "Schaal lettertypegrootte"
-        },
-        "body_scale": {
-          "label": "Schaal lettertypegrootte"
         }
       }
     },
@@ -123,6 +117,21 @@
     "social-media": {
       "name": "Social media",
       "settings": {
+        "share_facebook": {
+          "label": "Delen op Facebook"
+        },
+        "share_twitter": {
+          "label": "Twitteren op Twitter"
+        },
+        "share_pinterest": {
+          "label": "Pinnen op Pinterest"
+        },
+        "header__1": {
+          "content": "Opties voor sociaal delen"
+        },
+        "header__2": {
+          "content": "Socialmedia-accounts"
+        },
         "social_twitter_link": {
           "label": "Twitter",
           "info": "https:\/\/twitter.com\/shopify"
@@ -479,7 +488,7 @@
         },
         "show_image": {
           "label": "Uitgelichte afbeelding weergeven",
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Voor de beste resultaten, gebruik je een afbeelding met een beeldverhouding van 2:3. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "soft_background": {
           "label": "Secundaire achtergrond tonen"
@@ -489,6 +498,25 @@
         },
         "show_author": {
           "label": "Auteur weergeven"
+        }
+      },
+      "blocks": {
+        "title": {
+          "name": "Titel",
+          "settings": {
+            "show_date": {
+              "label": "Datum weergeven"
+            },
+            "show_author": {
+              "label": "Auteur weergeven"
+            }
+          }
+        },
+        "summary": {
+          "name": "Uittreksel"
+        },
+        "link": {
+          "name": "Link"
         }
       },
       "presets": {
@@ -650,7 +678,7 @@
           "label": "Aangepaste logo-breedte"
         },
         "logo_position": {
-          "label": "Positie van logo voor desktop",
+          "label": "Positie van logo op groot scherm",
           "options__1": {
             "label": "Midden links"
           },
@@ -659,8 +687,7 @@
           },
           "options__3": {
             "label": "Centraal boven"
-          },
-          "info": "De positie wordt automatisch geoptimaliseerd voor mobiel."
+          }
         },
         "menu": {
           "label": "Menu"
@@ -701,6 +728,18 @@
         "image_2": {
           "label": "Tweede afbeelding"
         },
+        "desktop_text_box_position": {
+          "options__1": {
+            "label": "Boven"
+          },
+          "options__2": {
+            "label": "Midden"
+          },
+          "options__3": {
+            "label": "Onder"
+          },
+          "label": "Tekstpositie bureaublad"
+        },
         "color_scheme": {
           "options__1": {
             "label": "Accent 1"
@@ -718,17 +757,16 @@
             "label": "Omkeren"
           },
           "label": "Kleurschema",
-          "info": "Zichtbaar wanneer de container wordt weergegeven."
+          "info": "Zichtbaar als het tekstvak weergegeven is"
         },
         "stack_images_on_mobile": {
           "label": "Afbeeldingen stapelen op mobiel"
         },
         "adapt_height_first_image": {
-          "label": "Sectiehoogte aanpassen aan grootte eerste afbeelding",
-          "info": "Overschrijft de instelling voor de hoogte van de bannerafbeelding als je deze controleert."
+          "label": "Sectiehoogte aanpassen aan grootte eerste afbeelding"
         },
         "show_text_box": {
-          "label": "Container op desktop weergeven"
+          "label": "Geef het tekstvak weer op het bureaublad"
         },
         "image_overlay_opacity": {
           "label": "Doorzichtigheid van afbeeldingsoverlay"
@@ -737,74 +775,7 @@
           "content": "Mobiele opmaak"
         },
         "show_text_below": {
-          "label": "Container op mobiel weergeven"
-        },
-        "image_height": {
-          "label": "Hoogte van de banner",
-          "options__1": {
-            "label": "Klein"
-          },
-          "options__2": {
-            "label": "Gemiddeld"
-          },
-          "options__3": {
-            "label": "Groot"
-          },
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "desktop_content_position": {
-          "options__1": {
-            "label": "Linksboven"
-          },
-          "options__2": {
-            "label": "Centraal boven"
-          },
-          "options__3": {
-            "label": "Rechtsboven"
-          },
-          "options__4": {
-            "label": "Midden links"
-          },
-          "options__5": {
-            "label": "Centraal midden"
-          },
-          "options__6": {
-            "label": "Midden rechts"
-          },
-          "options__7": {
-            "label": "Linksonder"
-          },
-          "options__8": {
-            "label": "Centraal onder"
-          },
-          "options__9": {
-            "label": "Rechtsonder"
-          },
-          "label": "Positie van content op desktop"
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "Links"
-          },
-          "options__2": {
-            "label": "Centraal"
-          },
-          "options__3": {
-            "label": "Rechts"
-          },
-          "label": "Uitlijning van content op desktop"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "Links"
-          },
-          "options__2": {
-            "label": "Centraal"
-          },
-          "options__3": {
-            "label": "Rechts"
-          },
-          "label": "Uitlijning van content op mobiel"
+          "label": "Geef tekst weer onder afbeeldingen"
         }
       },
       "blocks": {
@@ -821,7 +792,7 @@
               "options__2": {
                 "label": "Groot"
               },
-              "label": "Grootte hoofdtekst"
+              "label": "Grootte lettertype kop"
             }
           }
         },
@@ -830,18 +801,6 @@
           "settings": {
             "text": {
               "label": "Beschrijving"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Hoofdtekst"
-              },
-              "options__2": {
-                "label": "Subtitel"
-              },
-              "options__3": {
-                "label": "Hoofdletters"
-              },
-              "label": "Tekststijl"
             }
           }
         },
@@ -891,8 +850,7 @@
           "options__3": {
             "label": "Groot"
           },
-          "label": "Hoogte afbeelding",
-          "info": "Bepaalt de hoogte van secties."
+          "label": "Breedte-\/hoogteverhouding van afbeeldingen"
         },
         "color_scheme": {
           "options__1": {
@@ -917,68 +875,10 @@
             "label": "Afbeelding eerst"
           },
           "options__2": {
-            "label": "Tweede afbeelding"
+            "label": "Tekst eerst"
           },
-          "label": "Plaatsing van afbeelding op desktop",
+          "label": "Opmaak bureaublad",
           "info": "Afbeelding eerst is de standaard opmaak voor mobiel."
-        },
-        "desktop_image_width": {
-          "options__1": {
-            "label": "Klein"
-          },
-          "options__2": {
-            "label": "Gemiddeld"
-          },
-          "options__3": {
-            "label": "Groot"
-          },
-          "label": "Breedte van bureaubladafbeelding",
-          "info": "De afbeelding wordt automatisch geoptimaliseerd voor mobiel."
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "Links"
-          },
-          "options__3": {
-            "label": "Rechts"
-          },
-          "label": "Uitlijning van content op desktop",
-          "options__2": {
-            "label": "Centraal"
-          }
-        },
-        "desktop_content_position": {
-          "options__1": {
-            "label": "Boven"
-          },
-          "options__2": {
-            "label": "Midden"
-          },
-          "options__3": {
-            "label": "Onder"
-          },
-          "label": "Positie van content op desktop"
-        },
-        "content_layout": {
-          "options__1": {
-            "label": "Geen overlappingen"
-          },
-          "options__2": {
-            "label": "Overlappingen"
-          },
-          "label": "Content-opmaak"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "Links"
-          },
-          "options__3": {
-            "label": "Rechts"
-          },
-          "label": "Uitlijning van content op mobiel",
-          "options__2": {
-            "label": "Centraal"
-          }
         }
       },
       "blocks": {
@@ -987,18 +887,6 @@
           "settings": {
             "heading": {
               "label": "Opschrift"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Klein"
-              },
-              "options__2": {
-                "label": "Gemiddeld"
-              },
-              "options__3": {
-                "label": "Groot"
-              },
-              "label": "Grootte koptekst"
             }
           }
         },
@@ -1006,16 +894,7 @@
           "name": "Tekst",
           "settings": {
             "text": {
-              "label": "Content"
-            },
-            "text_style": {
-              "label": "Tekststijl",
-              "options__1": {
-                "label": "Hoofdtekst"
-              },
-              "options__2": {
-                "label": "Subtitel"
-              }
+              "label": "Beschrijving"
             }
           }
         },
@@ -1028,35 +907,6 @@
             },
             "button_link": {
               "label": "Knop met link"
-            }
-          }
-        },
-        "caption": {
-          "name": "Bijschrift",
-          "settings": {
-            "text": {
-              "label": "Tekst"
-            },
-            "text_style": {
-              "label": "Tekststijl",
-              "options__1": {
-                "label": "Subtitel"
-              },
-              "options__2": {
-                "label": "Hoofdletters"
-              }
-            },
-            "caption_size": {
-              "label": "Tekstgrootte",
-              "options__1": {
-                "label": "Klein"
-              },
-              "options__2": {
-                "label": "Gemiddeld"
-              },
-              "options__3": {
-                "label": "Groot"
-              }
             }
           }
         }
@@ -1103,6 +953,9 @@
         "content": {
           "name": "Inhoud"
         },
+        "social_sharing": {
+          "name": "Knoppen voor sociaal delen"
+        },
         "share": {
           "name": "Delen",
           "settings": {
@@ -1126,7 +979,8 @@
           "content": "Kaart blogbericht"
         },
         "show_image": {
-          "label": "Uitgelichte afbeelding weergeven"
+          "label": "Uitgelichte afbeelding weergeven",
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 2:3. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "paragraph": {
           "content": "Wijzig uittreksels door je blogposts bij te werken. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/blogs\/writing-blogs#display-an-excerpt-from-a-blog-post)"
@@ -1138,14 +992,13 @@
           "label": "Auteur weergeven"
         },
         "layout": {
-          "label": "Opmaak voor desktop",
+          "label": "Opmaak op grote schermen",
           "options__1": {
             "label": "Grid"
           },
           "options__2": {
             "label": "Collage"
-          },
-          "info": "Op mobiel worden berichten gestapeld."
+          }
         },
         "image_height": {
           "label": "Hoogte van uitgelichte afbeelding",
@@ -1161,7 +1014,26 @@
           "options__4": {
             "label": "Groot"
           },
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 2:3. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+        }
+      },
+      "blocks": {
+        "title": {
+          "name": "Titel",
+          "settings": {
+            "show_date": {
+              "label": "Datum weergeven"
+            },
+            "show_author": {
+              "label": "Auteur weergeven"
+            }
+          }
+        },
+        "summary": {
+          "name": "Uittreksel"
+        },
+        "link": {
+          "name": "Link"
         }
       }
     },
@@ -1251,8 +1123,11 @@
         "show_image_outline": {
           "label": "Toon afbeeldingsrand"
         },
+        "enable_sort": {
+          "label": "Sortering inschakelen"
+        },
         "collapse_on_larger_devices": {
-          "label": "Inklappen op desktop"
+          "label": "Inklappen op grotere schermen"
         },
         "show_rating": {
           "label": "Geef productbeoordeling weer",
@@ -1443,6 +1318,10 @@
         "share": {
           "name": "Delen",
           "settings": {
+            "header": {
+              "content": "Delen",
+              "info": "Als je een link van je webwinkel op sociale media plaatst, wordt de uitgelichte afbeelding voor die pagina getoond. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images). Een titel en beschrijving instellen voor je onlinewinkel. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+            },
             "featured_image_info": {
               "content": "De uitgelichte afbeelding van de pagina wordt weergegeven als een voorbeeldafbeelding als je een link in je posts op social media plaatst. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
@@ -1582,44 +1461,10 @@
           "label": "Video-looping inschakelen"
         },
         "enable_sticky_info": {
-          "label": "Sticky content op desktop inschakelen"
+          "label": "Schakel plakbare productinformatie in op grote schermen"
         },
         "hide_variants": {
           "label": "De media van andere varianten verbergen na het selecteren van een variant"
-        },
-        "gallery_layout": {
-          "label": "Opmaak bureaublad",
-          "options__1": {
-            "label": "Gestapeld"
-          },
-          "options__2": {
-            "label": "Miniatuurafbeeldingen"
-          },
-          "options__3": {
-            "label": "Carrousel van miniatuur"
-          }
-        },
-        "media_size": {
-          "label": "Mediagrootte desktop",
-          "info": "Media wordt automatisch geoptimaliseerd voor mobiel.",
-          "options__1": {
-            "label": "Klein"
-          },
-          "options__2": {
-            "label": "Gemiddeld"
-          },
-          "options__3": {
-            "label": "Groot"
-          }
-        },
-        "mobile_thumbnails": {
-          "label": "Mobiele opmaak",
-          "options__1": {
-            "label": "Miniaturen weergeven"
-          },
-          "options__2": {
-            "label": "Miniaturen verbergen"
-          }
         }
       }
     },
@@ -1744,12 +1589,6 @@
             },
             "text": {
               "label": "Beschrijving"
-            },
-            "link_label": {
-              "label": "Link-label"
-            },
-            "link": {
-              "label": "Link"
             }
           }
         }
@@ -1825,8 +1664,14 @@
     "product-recommendations": {
       "name": "Productaanbevelingen",
       "settings": {
+        "header": {
+          "info": "Dynamische aanbevelingen gebruiken bestellings- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Meer informatie](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+        },
         "heading": {
           "label": "Opschrift"
+        },
+        "header__1": {
+          "content": "Productaanbevelingen"
         },
         "header__2": {
           "content": "Productkaart"
@@ -1903,7 +1748,7 @@
               "options__2": {
                 "label": "Medium"
               },
-              "label": "Grootte kop",
+              "label": "Grootte lettertype kop",
               "options__3": {
                 "label": "Groot"
               }
@@ -2087,423 +1932,6 @@
       },
       "presets": {
         "name": "Uitgelicht product"
-      }
-    },
-    "email-signup-banner": {
-      "name": "Banner voor aanmelding voor het ontvangen van e-mail",
-      "settings": {
-        "paragraph": {
-          "content": "Voor elk abonnement via e-mail wordt een klantaccount aangemaakt. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/customers)"
-        },
-        "image": {
-          "label": "Achtergrondafbeelding"
-        },
-        "show_background_image": {
-          "label": "Achtergrondafbeelding weergeven"
-        },
-        "show_text_box": {
-          "label": "Container op desktop weergeven"
-        },
-        "image_overlay_opacity": {
-          "label": "Doorzichtigheid van afbeeldingsoverlay"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "Accent 1"
-          },
-          "options__2": {
-            "label": "Accent 2"
-          },
-          "options__3": {
-            "label": "Achtergrond 1"
-          },
-          "options__4": {
-            "label": "Achtergrond 2"
-          },
-          "options__5": {
-            "label": "Omkeren"
-          },
-          "label": "Kleurschema",
-          "info": "Zichtbaar wanneer de container wordt weergegeven"
-        },
-        "show_text_below": {
-          "label": "Content op mobiel onder de afbeelding weergeven",
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "image_height": {
-          "label": "Hoogte van de banner",
-          "options__1": {
-            "label": "Aanpassen aan afbeelding"
-          },
-          "options__2": {
-            "label": "Klein"
-          },
-          "options__3": {
-            "label": "Gemiddeld"
-          },
-          "options__4": {
-            "label": "Groot"
-          },
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "desktop_content_position": {
-          "options__4": {
-            "label": "Midden links"
-          },
-          "options__5": {
-            "label": "Centraal midden"
-          },
-          "options__6": {
-            "label": "Midden rechts"
-          },
-          "options__7": {
-            "label": "Linksonder"
-          },
-          "options__8": {
-            "label": "Centraal onder"
-          },
-          "options__9": {
-            "label": "Rechtsonder"
-          },
-          "options__1": {
-            "label": "Linksboven"
-          },
-          "options__2": {
-            "label": "Centraal boven"
-          },
-          "options__3": {
-            "label": "Rechtsboven"
-          },
-          "label": "Positie van content op desktop"
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "Links"
-          },
-          "options__2": {
-            "label": "Centraal"
-          },
-          "options__3": {
-            "label": "Rechts"
-          },
-          "label": "Uitlijning van content op desktop"
-        },
-        "header": {
-          "content": "Opmaak op mobiel"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "Links"
-          },
-          "options__2": {
-            "label": "Centraal"
-          },
-          "options__3": {
-            "label": "Rechts"
-          },
-          "label": "Uitlijning van content op mobiel"
-        }
-      },
-      "blocks": {
-        "heading": {
-          "name": "Opschrift",
-          "settings": {
-            "heading": {
-              "label": "Opschrift"
-            }
-          }
-        },
-        "paragraph": {
-          "name": "Paragraaf",
-          "settings": {
-            "paragraph": {
-              "label": "Beschrijving"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Hoofdtekst"
-              },
-              "options__2": {
-                "label": "Subtitel"
-              },
-              "label": "Tekststijl"
-            }
-          }
-        },
-        "email_form": {
-          "name": "E-mailformulier"
-        }
-      },
-      "presets": {
-        "name": "Banner voor aanmelding voor het ontvangen van e-mail"
-      }
-    },
-    "slideshow": {
-      "name": "Diavoorstelling",
-      "settings": {
-        "layout": {
-          "label": "Opmaak",
-          "options__1": {
-            "label": "Volledige breedte"
-          },
-          "options__2": {
-            "label": "Grid"
-          }
-        },
-        "slide_height": {
-          "label": "Diahoogte",
-          "options__1": {
-            "label": "Aanpassen aan eerste afbeelding"
-          },
-          "options__2": {
-            "label": "Klein"
-          },
-          "options__3": {
-            "label": "Gemiddeld"
-          },
-          "options__4": {
-            "label": "Groot"
-          }
-        },
-        "slider_visual": {
-          "label": "Pagineringsstijl",
-          "options__1": {
-            "label": "Teller"
-          },
-          "options__2": {
-            "label": "Stippen"
-          },
-          "options__3": {
-            "label": "Getallen"
-          }
-        },
-        "heading_size": {
-          "label": "Grootte lettertype kop",
-          "options__1": {
-            "label": "Gemiddeld"
-          },
-          "options__2": {
-            "label": "Groot"
-          }
-        },
-        "box_align": {
-          "label": "Positie van content op desktop",
-          "options__1": {
-            "label": "Linksboven"
-          },
-          "options__2": {
-            "label": "Centraal boven"
-          },
-          "options__3": {
-            "label": "Rechtsboven"
-          },
-          "options__4": {
-            "label": "Midden links"
-          },
-          "options__5": {
-            "label": "Centraal midden"
-          },
-          "options__6": {
-            "label": "Midden rechts"
-          },
-          "options__7": {
-            "label": "Linksonder"
-          },
-          "options__8": {
-            "label": "Midden onder"
-          },
-          "options__9": {
-            "label": "Rechtsonder"
-          }
-        },
-        "show_text_box": {
-          "label": "Container op desktop weergeven"
-        },
-        "text_alignment": {
-          "label": "Uitlijning van content op desktop",
-          "option_1": {
-            "label": "Links"
-          },
-          "option_2": {
-            "label": "Centraal"
-          },
-          "option_3": {
-            "label": "Rechts"
-          }
-        },
-        "image_overlay_opacity": {
-          "label": "Doorzichtigheid van afbeeldingsoverlay"
-        },
-        "auto_rotate": {
-          "label": "Dia's automatisch draaien"
-        },
-        "change_slides_speed": {
-          "label": "Wijzig dia's elke"
-        },
-        "color_scheme": {
-          "label": "Kleurschema voor vak",
-          "info": "Zichtbaar wanneer de container wordt weergegeven.",
-          "options__1": {
-            "label": "Accent 1"
-          },
-          "options__2": {
-            "label": "Accent 2"
-          },
-          "options__3": {
-            "label": "Achtergrond 1"
-          },
-          "options__4": {
-            "label": "Achtergrond 2"
-          },
-          "options__5": {
-            "label": "Omkeren"
-          }
-        },
-        "mobile": {
-          "content": "Mobiele opmaak"
-        },
-        "text_alignment_mobile": {
-          "label": "Uitlijning van content op mobiel",
-          "options__1": {
-            "label": "Links"
-          },
-          "options__2": {
-            "label": "Centraal"
-          },
-          "options__3": {
-            "label": "Rechts"
-          }
-        },
-        "show_text_below": {
-          "label": "Content op mobiel onder de afbeelding weergeven"
-        },
-        "accessibility": {
-          "content": "Toegankelijkheid",
-          "label": "Beschrijving van diavoorstelling",
-          "info": "Geef een beschrijving van de diavoorstelling voor klanten die schermlezers gebruiken."
-        }
-      },
-      "blocks": {
-        "slide": {
-          "name": "Dia",
-          "settings": {
-            "image": {
-              "label": "Afbeelding"
-            },
-            "heading": {
-              "label": "Kop"
-            },
-            "subheading": {
-              "label": "Subkop"
-            },
-            "button_label": {
-              "label": "Knoplabel",
-              "info": "Laat het label leeg om de knop te verbergen."
-            },
-            "link": {
-              "label": "Knoplink",
-              "info": "Laat het label leeg om de knop te verbergen."
-            },
-            "secondary_style": {
-              "label": "Gebruik contouren als knopstijl"
-            },
-            "heading_size": {
-              "label": "Grootte kop",
-              "options__1": {
-                "label": "Klein"
-              },
-              "options__2": {
-                "label": "Gemiddeld"
-              },
-              "options__3": {
-                "label": "Groot"
-              }
-            },
-            "box_align": {
-              "label": "Positie van content op desktop",
-              "options__1": {
-                "label": "Linksboven"
-              },
-              "options__2": {
-                "label": "Centraal boven"
-              },
-              "options__3": {
-                "label": "Rechtsboven"
-              },
-              "options__4": {
-                "label": "Midden links"
-              },
-              "options__5": {
-                "label": "Centraal midden"
-              },
-              "options__6": {
-                "label": "Midden rechts"
-              },
-              "options__7": {
-                "label": "Linksonder"
-              },
-              "options__8": {
-                "label": "Midden onder"
-              },
-              "options__9": {
-                "label": "Rechtsonder"
-              },
-              "info": "De positie wordt automatisch geoptimaliseerd voor mobiel."
-            },
-            "show_text_box": {
-              "label": "Container op desktop weergeven"
-            },
-            "text_alignment": {
-              "label": "Uitlijning van content op desktop",
-              "option_1": {
-                "label": "Links"
-              },
-              "option_2": {
-                "label": "Centraal"
-              },
-              "option_3": {
-                "label": "Rechts"
-              }
-            },
-            "image_overlay_opacity": {
-              "label": "Doorzichtigheid van afbeeldingsoverlay"
-            },
-            "color_scheme": {
-              "label": "Kleurschema",
-              "info": "Zichtbaar wanneer de container wordt weergegeven.",
-              "options__1": {
-                "label": "Accent 1"
-              },
-              "options__2": {
-                "label": "Accent 2"
-              },
-              "options__3": {
-                "label": "Achtergrond 1"
-              },
-              "options__4": {
-                "label": "Achtergrond 2"
-              },
-              "options__5": {
-                "label": "Omkeren"
-              }
-            },
-            "text_alignment_mobile": {
-              "label": "Uitlijning van content op mobiel",
-              "options__1": {
-                "label": "Links"
-              },
-              "options__2": {
-                "label": "Centraal"
-              },
-              "options__3": {
-                "label": "Rechts"
-              }
-            }
-          }
-        }
-      },
-      "presets": {
-        "name": "Diavoorstelling"
       }
     }
   }

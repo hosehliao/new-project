@@ -7,6 +7,7 @@
       "login_form_password_placeholder": "Mật khẩu của bạn",
       "login_form_error": "Sai mật khẩu!",
       "login_form_submit": "Vào",
+      "modal": "Hộp tương tác mật khẩu",
       "admin_link_html": "Bạn có phải chủ cửa hàng không? <a href=\"\/admin\" class=\"link underlined-link\">Đăng nhập tại đây<\/a>",
       "powered_by_shopify_html": "Cửa hàng này sẽ do {{ shopify }} cung cấp"
     },
@@ -44,14 +45,10 @@
     },
     "share": {
       "copy_to_clipboard": "Sao chép liên kết",
+      "share": "Chia sẻ",
       "share_url": "Liên kết",
       "success_message": "Đã sao chép liên kết vào bảng nhớ tạm",
       "close": "Đóng cửa sổ chia sẻ"
-    },
-    "slider": {
-      "of": "trong số",
-      "next_slide": "Trượt sang phải",
-      "previous_slide": "Trượt sang trái"
     }
   },
   "newsletter": {
@@ -70,7 +67,10 @@
       "new_window": "Mở trong cửa sổ mới.",
       "external": "Mở trang web bên ngoài."
     },
+    "next_slide": "Trượt sang phải",
+    "previous_slide": "Trượt sang trái",
     "loading": "Đang tải...",
+    "of": "trên",
     "skip_to_product_info": "Chuyển đến thông tin sản phẩm",
     "total_reviews": "tổng số lượt đánh giá",
     "star_reviews_info": "{{ rating_value }}\/{{ rating_max }} sao"
@@ -79,6 +79,7 @@
     "article": {
       "blog": "Blog",
       "read_more_title": "Đọc thêm: {{ title }}",
+      "read_more": "Đọc thêm",
       "comments": {
         "one": "{{ count }} bình luận",
         "other": "{{ count }} bình luận"
@@ -134,14 +135,10 @@
         "refresh": "Làm mới"
       },
       "media": {
-        "open_media": "Mở phương tiện {{ index }} trong hộp tương tác",
+        "open_featured_media": "Mở phương tiện nổi bật trong dạng xem bộ sưu tập",
+        "open_media": "Mở {{ index }} phương tiện trong dạng xem bộ sưu tập",
         "play_model": "Mở Trình xem 3D",
-        "play_video": "Phát video",
-        "gallery_viewer": "Trình xem thư viện",
-        "load_image": "Tải hình ảnh {{ index }} trong chế độ xem thư viện",
-        "load_model": "Tải mô hình 3D {{ index }} trong chế độ xem thư viện",
-        "load_video": "Phát video {{ index }} trong chế độ xem thư viện",
-        "image_available": "Hình ảnh {{ index }} hiện đã có trong chế độ xem thư viện"
+        "play_video": "Phát video"
       },
       "view_full_details": "Xem toàn bộ chi tiết",
       "include_taxes": "Đã bao gồm thuế.",
@@ -232,7 +229,7 @@
       "checkout": "Thanh toán",
       "empty": "Giỏ hàng của bạn đang trống",
       "cart_error": "Đã xảy ra lỗi khi cập nhật giỏ hàng. Vui lòng thử lại.",
-      "cart_quantity_error_html": "Bạn chỉ có thể thêm {{ quantity }} mặt hàng này vào giỏ hàng.",
+      "cart_quantity_error_html": "Bạn chỉ có thể thêm [số lượng] mặt hàng này vào giỏ hàng.",
       "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"{{ link }}\">phí vận chuyển<\/a> được tính khi thanh toán",
       "taxes_included_but_shipping_at_checkout": "Đã bao gồm thuế và phí vận chuyển được tính khi thanh toán",
       "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\">Phí vận chuyển<\/a> được tính khi thanh toán.",
@@ -250,7 +247,8 @@
       }
     },
     "footer": {
-      "payment": "Phương thức thanh toán"
+      "payment": "Phương thức thanh toán",
+      "social_placeholder": "Hãy theo dõi chúng tôi trên truyền thông xã hội!"
     },
     "featured_blog": {
       "view_all": "Xem tất cả",
@@ -271,15 +269,6 @@
     },
     "video": {
       "load_video": "Tải video: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Tải trang chiếu",
-      "previous_slideshow": "Trang chiếu trước",
-      "next_slideshow": "Trang chiếu sau",
-      "pause_slideshow": "Tạm dừng bản trình chiếu",
-      "play_slideshow": "Phát bản trình chiếu",
-      "carousel": "Quay vòng",
-      "slide": "Trang chiếu"
     }
   },
   "localization": {
@@ -392,7 +381,7 @@
       "track_shipment": "Theo dõi lô hàng",
       "tracking_url": "Liên kết theo dõi",
       "tracking_company": "Hãng vận chuyển",
-      "tracking_number": "Mã theo dõi",
+      "tracking_number": "Số theo dõi",
       "subtotal": "Tổng phụ"
     }
   },

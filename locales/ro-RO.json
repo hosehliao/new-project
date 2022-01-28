@@ -7,6 +7,7 @@
       "login_form_password_placeholder": "Parola dvs.",
       "login_form_error": "Parolă incorectă!",
       "login_form_submit": "Accesați",
+      "modal": "Dialogul modal Parolă",
       "admin_link_html": "Sunteți proprietarul magazinului? <a href=\"\/admin\" class=\"link underlined-link\">Conectați-vă aici<\/a>",
       "powered_by_shopify_html": "Acest magazin va fi pe platforma {{ shopify }}"
     },
@@ -44,14 +45,10 @@
     },
     "share": {
       "copy_to_clipboard": "Copiați linkul",
+      "share": "Distribuiți",
       "share_url": "Link",
       "success_message": "Linkul a fost copiat în clipboard",
       "close": "Închide partajarea"
-    },
-    "slider": {
-      "of": "din",
-      "next_slide": "Glisare la dreapta",
-      "previous_slide": "Glisare la stânga"
     }
   },
   "newsletter": {
@@ -66,11 +63,14 @@
     "vendor": "Vânzător:",
     "error": "Eroare",
     "refresh_page": "Alegerea unei selecții are ca rezultat o reîmprospătare completă a paginii.",
+    "next_slide": "Glisare la dreapta",
+    "previous_slide": "Glisare la stânga",
     "loading": "Se încarcă...",
     "link_messages": {
       "new_window": "Se deschide într-o fereastră nouă.",
       "external": "Deschide site-ul extern."
     },
+    "of": "din",
     "skip_to_product_info": "Salt la informațiile despre produs",
     "total_reviews": "total recenzii",
     "star_reviews_info": "{{ rating_value }} din {{ rating_max }} stele"
@@ -79,6 +79,7 @@
     "article": {
       "blog": "Blog",
       "read_more_title": "Aflați mai mult: {{ title }}",
+      "read_more": "Aflați mai mult",
       "moderated": "Rețineți: comentariile trebuie să fie aprobate înainte de publicare.",
       "comment_form_title": "Scrieți un comentariu",
       "name": "Nume",
@@ -135,14 +136,10 @@
         "refresh": "Reîmprospătați"
       },
       "media": {
-        "open_media": "Deschide conținutul media {{ index }} într-o fereastră modală",
+        "open_featured_media": "Deschideți în vizualizarea galerie conținutul media prezentat",
+        "open_media": "Deschideți în vizualizarea galerie conținutul media {{ index }}",
         "play_model": "Redați în vizualizatorul 3D",
-        "play_video": "Redați videoclipul",
-        "gallery_viewer": "Vizualizatorul galeriei",
-        "load_image": "Încarcă imaginea {{ index }} în vizualizarea galeriei",
-        "load_model": "Încarcă modelul 3D {{ index }} în vizualizarea galeriei",
-        "load_video": "Redă videoclipul {{ index }} în vizualizarea galeriei",
-        "image_available": "Imaginea {{ index }} este disponibilă acum în vizualizarea galeriei"
+        "play_video": "Redați videoclipul"
       },
       "view_full_details": "Vedeți detaliile complete",
       "include_taxes": "Taxe incluse.",
@@ -239,7 +236,7 @@
       "checkout": "Finalizați comanda",
       "empty": "Coșul dvs. este gol",
       "cart_error": "A apărut o eroare în timpul actualizării coșului. Încercați din nou.",
-      "cart_quantity_error_html": "Cantitatea maximă pe care o poți adăuga în coș din acest articol: {{ quantity }}.",
+      "cart_quantity_error_html": "Cantitatea maximă pe care o puteți adăuga în coș din acest articol: [quantity].",
       "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"{{ link }}\">transportul<\/a> sunt calculate la finalizarea comenzii",
       "taxes_included_but_shipping_at_checkout": "Taxele sunt incluse și transportul este calculat la finalizarea comenzii",
       "taxes_included_and_shipping_policy_html": "Taxele sunt incluse. <a href=\"{{ link }}\">Transportul<\/a> este calculat la finalizarea comenzii.",
@@ -257,7 +254,8 @@
       }
     },
     "footer": {
-      "payment": "Metode de plată"
+      "payment": "Metode de plată",
+      "social_placeholder": "Urmăriți-ne pe rețelele sociale"
     },
     "featured_blog": {
       "view_all": "Afișați tot",
@@ -274,19 +272,19 @@
     "collection_template": {
       "title": "Colecție",
       "empty": "Nu s-au găsit produse",
-      "use_fewer_filters_html": "Utilizați mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">goliți tot<\/a>"
+      "use_fewer_filters_html": "Utilizați mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">goliți tot<\/a>",
+      "product_count": {
+        "few": "{{ product_count }} din {{ count }} produse"
+      },
+      "filters_selected": {
+        "few": "{{ count }} selectate"
+      },
+      "product_count_simple": {
+        "few": "{{ count }} produse"
+      }
     },
     "video": {
       "load_video": "Încarcă clipul video: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Încarcă diapozitivul",
-      "previous_slideshow": "Diapozitivul anterior",
-      "next_slideshow": "Diapozitivul următor",
-      "pause_slideshow": "Întrerupe prezentarea de diapozitive",
-      "play_slideshow": "Redă prezentarea de diapozitive",
-      "carousel": "Carusel",
-      "slide": "Diapozitiv"
     }
   },
   "localization": {

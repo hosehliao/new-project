@@ -3,23 +3,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
           }
         },
-        "caption": {
+        "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text": "Free shipping on orders over RM250 and Storewide 10% Off",
+            "text_style": "body"
           }
         },
         "price": {
@@ -30,6 +23,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -40,35 +34,87 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": true
           }
         },
-        "description": {
+        "b8c6a8ac-6bc9-4267-883a-d38c542121e1": {
           "type": "description",
           "settings": {
+          }
+        },
+        "c0d80f3a-8739-4a46-bf4e-e6fe359948ad": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>{{ product.metafields.my_fields.details | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "8695e979-74af-4a46-9bf0-a9903671c3d2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns",
+            "content": "<p>Before returning the goods, please read the following return instructions carefully and confirm that the goods meet the return standards<\/p><p>The official website order does not provide exchange service. View the full shipping terms <a href=\"https:\/\/saimeglobal.com\/pages\/returns-exchanges\" title=\"https:\/\/saimeglobal.com\/pages\/returns-exchanges\"><span style=\"text-decoration:underline\">here.<\/span><br\/><\/a><\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "08050c34-9165-4469-a580-ae66953de164": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery & Payment",
+            "content": "<p>On weekdays (Monday to Friday) the day after receipt of your payment, we will arrange the shipment immediately after confirming that your information is correct.<\/p><p>Payment method: e-wallet\/ Credit card \/ Debit card \/ Online banking \/ Hoolah<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "adf38a84-bb18-4822-ae4b-86832d929ebd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>If you have any enquiries, our dedicated customer care team are at your service. Please contact our <a href=\"http:\/\/m.me\/saimemalaysia.os\" target=\"_blank\" title=\"http:\/\/m.me\/saimemalaysia.os\">Customer Service<\/a> or visit our <a href=\"https:\/\/saimeglobal.com\/pages\/contact\" title=\"https:\/\/saimeglobal.com\/pages\/contact\">contact page<\/a> for other options.<\/p><p>As our products are made from the highest quality leather, we ask that you take proper care of them and they will last for years to come. Refer to our <a href=\"https:\/\/saimeglobal.com\/pages\/product-care\" title=\"https:\/\/saimeglobal.com\/pages\/product-care\">product care page<\/a> for a step by step guide.<\/p>",
+            "page": "",
+            "icon": "check_mark"
           }
         },
         "share": {
           "type": "share",
           "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "vendor",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
+        "b8c6a8ac-6bc9-4267-883a-d38c542121e1",
+        "c0d80f3a-8739-4a46-bf4e-e6fe359948ad",
+        "8695e979-74af-4a46-9bf0-a9903671c3d2",
+        "08050c34-9165-4469-a580-ae66953de164",
+        "adf38a84-bb18-4822-ae4b-86832d929ebd",
         "share"
       ],
       "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     }
   },

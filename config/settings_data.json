@@ -1,52 +1,99 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#121212",
-    "colors_accent_3": "#f9fbf9",
-    "colors_accent_2": "#334FB4",
-    "colors_text": "#121212",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#b97323",
+    "colors_accent_2": "#aeaeae",
+    "gradient_accent_2": "",
+    "colors_accent_3": "#d40505",
+    "colors_accent_4": "#d40505",
+    "colors_text": "#000000",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
-    "colors_background_2": "#F3F3F3",
-    "type_header_font": "montserrat_n4",
-    "heading_scale": 145,
-    "type_body_font": "assistant_n4",
-    "body_scale": 110,
-    "page_width": "1200",
+    "gradient_background_1": "",
+    "colors_background_2": "#ffffff",
+    "gradient_background_2": "",
+    "type_header_font": "roboto_n4",
+    "type_body_font": "helvetica_n4",
+    "sale_badge_color_scheme": "accent-3",
+    "sold_out_badge_color_scheme": "inverse",
+    "show_product_card_sale_percent": false,
+    "accent_icons": "outline-button",
+    "page_width": "1600",
+    "social_facebook_link": "https:\/\/www.facebook.com\/saimemalaysia",
+    "social_instagram_link": "https:\/\/www.instagram.com\/saimemalaysia\/",
+    "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/39811favicon.png",
+    "currency_format": "money_format",
+    "supported_currencies": "MYR USD SGD EUR RMB AUD",
+    "checkout_header_image": "shopify:\/\/shop_images\/All_Collection_banner_8a1be3c9-ef4f-4b04-acf1-4f75dee25be2.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/checkout_logo.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_input_background_color_mode": "white",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#b97323",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
+          "f7e67154-f017-4574-b5b2-c4c81102c0dc": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "CNY Delivery Notice: All orders placed after 26th Jan will be shipped from 7th Feb onwards",
+              "title_color": "#ed462f",
               "color_scheme": "background-1",
               "link": ""
             }
           },
-          "04ef1fad-44e4-4696-8b38-8a5429d0de4b": {
+          "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Soft Opening Use Code [SAIMEGLOBAL10] for Storewide 10% Off *Limited Time till 31st January 2022*",
+              "title_color": "#ffffff",
               "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "d94e88ad-5e50-4d46-b9fe-f72380f57fe5": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free Shipping with purchase above RM250",
+              "title_color": "#ffffff",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
         },
         "block_order": [
+          "f7e67154-f017-4574-b5b2-c4c81102c0dc",
           "announcement-bar-0",
-          "04ef1fad-44e4-4696-8b38-8a5429d0de4b"
+          "d94e88ad-5e50-4d46-b9fe-f72380f57fe5"
         ],
         "settings": {
         }
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "b7a70b2d-8aad-4130-a10a-63e10a33687d": {
+            "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "navigation_mega_menu": "BAGS",
+              "push_1_image": "shopify:\/\/shop_images\/desktop-menu-banner-activelounge_220x_b0f79804-1b50-4eb4-8a28-5930fed74329.jpg",
+              "image_title": "test",
+              "subtext": "test",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "b7a70b2d-8aad-4130-a10a-63e10a33687d"
+        ],
         "settings": {
-          "color_scheme": "background-1",
-          "logo_width": 100,
+          "color_scheme": "background-2",
+          "logo": "shopify:\/\/shop_images\/8b9ee0da-d7ab-4afa-936f-fb16ceac8ff9-1589191239-be64asuif0_d.png",
+          "logo_width": 130,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": false,
@@ -59,27 +106,43 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "CUSTOMER CARE",
               "menu": "footer"
             }
           },
-          "footer-1": {
+          "23c2a03c-21f4-4817-a397-8163e9e63700": {
+            "type": "link_list",
+            "settings": {
+              "heading": "SHIPPING SERVICES",
+              "menu": "shipping-services"
+            }
+          },
+          "27c7efa3-d5f7-48f4-8293-e283283f189b": {
+            "type": "link_list",
+            "settings": {
+              "heading": "ABOUT",
+              "menu": "about"
+            }
+          },
+          "41efec8f-9868-43ad-a861-2725a21d44e6": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "MALAYSIA & SINGAPORE SUPPORT",
+              "subtext": "<p><strong>C\/o Saime Global <\/strong><br\/>37A, Lorong Rahim Kajai 13,<br\/>Taman Tun Dr Ismail, <br\/>60000 KUL, Malaysia.<br\/><br\/><br\/><\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "23c2a03c-21f4-4817-a397-8163e9e63700",
+          "27c7efa3-d5f7-48f4-8293-e283283f189b",
+          "41efec8f-9868-43ad-a861-2725a21d44e6"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "newsletter_heading": "SUBSCRIBE",
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
@@ -95,7 +158,8 @@
       "colors_solid_button_labels": "#FFFFFF",
       "colors_accent_1": "#121212",
       "colors_accent_2": "#334FB4",
-      "colors_accent_3": "#5F3535",
+      "colors_accent_3": "#ff0000",
+      "colors_accent_4": "#d40505",
       "colors_text": "#121212",
       "colors_outline_button_labels": "#121212",
       "colors_background_1": "#FFFFFF",
@@ -125,7 +189,7 @@
       "colors_solid_button_labels": "#EFECEC",
       "colors_accent_1": "#2A332F",
       "colors_accent_2": "#476154",
-      "colors_accent_3": "#5F3535",
+      "colors_accent_4": "#d40505",
       "colors_text": "#1C1A1A",
       "colors_outline_button_labels": "#7B8382",
       "colors_background_1": "#EFECEC",

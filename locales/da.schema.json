@@ -64,12 +64,6 @@
         "type_body_font": {
           "label": "Skrifttype",
           "info": "Valget af en anden skrifttype kan påvirke hastigheden i din butik. [Få mere at vide om systemskrifttyper.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
-        },
-        "heading_scale": {
-          "label": "Størrelsesskala for skrifttype"
-        },
-        "body_scale": {
-          "label": "Størrelsesskala for skrifttype"
         }
       }
     },
@@ -123,6 +117,21 @@
     "social-media": {
       "name": "Sociale medier",
       "settings": {
+        "share_facebook": {
+          "label": "Del på Facebook"
+        },
+        "share_twitter": {
+          "label": "Tweet på Twitter"
+        },
+        "share_pinterest": {
+          "label": "Pin på Pinterest"
+        },
+        "header__1": {
+          "content": "Muligheder for deling på sociale medier"
+        },
+        "header__2": {
+          "content": "SoMe-konti"
+        },
         "social_twitter_link": {
           "label": "Twitter",
           "info": "https:\/\/twitter.com\/shopify"
@@ -479,7 +488,7 @@
         },
         "show_image": {
           "label": "Vis udvalgt billede",
-          "info": "Brug et billede med et højde-bredde-forhold på 3:2 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Brug et billede med et højde-bredde-forhold på 2:3 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "soft_background": {
           "label": "Vis sekundær baggrund"
@@ -489,6 +498,25 @@
         },
         "show_author": {
           "label": "Vis forfatter"
+        }
+      },
+      "blocks": {
+        "title": {
+          "name": "Titel",
+          "settings": {
+            "show_date": {
+              "label": "Vis dato"
+            },
+            "show_author": {
+              "label": "Vis forfatter"
+            }
+          }
+        },
+        "summary": {
+          "name": "Uddrag"
+        },
+        "link": {
+          "name": "Link"
         }
       },
       "presets": {
@@ -650,7 +678,7 @@
           "label": "Tilpasset logobredde"
         },
         "logo_position": {
-          "label": "Placering af logo på computer",
+          "label": "Placering af logo på store skærme",
           "options__1": {
             "label": "Midt på til venstre"
           },
@@ -659,8 +687,7 @@
           },
           "options__3": {
             "label": "Øverst i midten"
-          },
-          "info": "Placeringen optimeres automatisk til mobil."
+          }
         },
         "menu": {
           "label": "Menu"
@@ -701,6 +728,18 @@
         "image_2": {
           "label": "Andet billede"
         },
+        "desktop_text_box_position": {
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Centreret"
+          },
+          "options__3": {
+            "label": "Bund"
+          },
+          "label": "Placering af tekst på skrivebordet"
+        },
         "color_scheme": {
           "options__1": {
             "label": "Markering 1"
@@ -718,17 +757,16 @@
             "label": "Omvendt"
           },
           "label": "Farveskema",
-          "info": "Synlig, når containeren vises."
+          "info": "Synlig, når tekstfeltet vises"
         },
         "stack_images_on_mobile": {
           "label": "Stabl billeder på mobilenheder"
         },
         "adapt_height_first_image": {
-          "label": "Tilpas afsnitshøjden til størrelsen af det første billede",
-          "info": "Overskriver indstillingerne for højden på billedbanneret, når det markeres."
+          "label": "Tilpas afsnitshøjden til størrelsen af det første billede"
         },
         "show_text_box": {
-          "label": "Vis container på skrivebord"
+          "label": "Vis tekstfelt på skrivebord"
         },
         "image_overlay_opacity": {
           "label": "Billedoverlejringens uigennemsigtighed"
@@ -737,74 +775,7 @@
           "content": "Mobillayout"
         },
         "show_text_below": {
-          "label": "Vis container på mobiltelefon"
-        },
-        "image_height": {
-          "label": "Bannerhøjde",
-          "options__1": {
-            "label": "Lille"
-          },
-          "options__2": {
-            "label": "Medium"
-          },
-          "options__3": {
-            "label": "Stor"
-          },
-          "info": "Brug et billede med et højde-bredde-forhold på 3:2 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "desktop_content_position": {
-          "options__1": {
-            "label": "Øverst til venstre"
-          },
-          "options__2": {
-            "label": "Øverst i midten"
-          },
-          "options__3": {
-            "label": "Øverst til højre"
-          },
-          "options__4": {
-            "label": "Midt på til venstre"
-          },
-          "options__5": {
-            "label": "Midt på centreret"
-          },
-          "options__6": {
-            "label": "Midt på til højre"
-          },
-          "options__7": {
-            "label": "Nederst til venstre"
-          },
-          "options__8": {
-            "label": "Nederst i midten"
-          },
-          "options__9": {
-            "label": "Nederst til højre"
-          },
-          "label": "Placering af indhold på computer"
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "Venstre"
-          },
-          "options__2": {
-            "label": "Centreret"
-          },
-          "options__3": {
-            "label": "Højre"
-          },
-          "label": "Justering af indhold på computer"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "Venstre"
-          },
-          "options__2": {
-            "label": "Centreret"
-          },
-          "options__3": {
-            "label": "Højre"
-          },
-          "label": "Justering af indhold på mobil"
+          "label": "Vis tekster under billeder"
         }
       },
       "blocks": {
@@ -821,7 +792,7 @@
               "options__2": {
                 "label": "Stor"
               },
-              "label": "Størrelse for overskrift"
+              "label": "Skriftstørrelse til overskrifter"
             }
           }
         },
@@ -830,18 +801,6 @@
           "settings": {
             "text": {
               "label": "Beskrivelse"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Brødtekst"
-              },
-              "options__2": {
-                "label": "Undertekst"
-              },
-              "options__3": {
-                "label": "Store bogstaver"
-              },
-              "label": "Teksttypografi"
             }
           }
         },
@@ -891,8 +850,7 @@
           "options__3": {
             "label": "Stor"
           },
-          "label": "Billedhøjde",
-          "info": "Angiver højden på afsnittet."
+          "label": "Billedforhold"
         },
         "color_scheme": {
           "options__1": {
@@ -917,68 +875,10 @@
             "label": "Billede først"
           },
           "options__2": {
-            "label": "Andet billede"
+            "label": "Tekst først"
           },
-          "label": "Billedplacering på computer",
+          "label": "Skrivebordslayout",
           "info": "Billede først er standardmobillayoutet."
-        },
-        "desktop_image_width": {
-          "options__1": {
-            "label": "Lille"
-          },
-          "options__2": {
-            "label": "Medium"
-          },
-          "options__3": {
-            "label": "Stor"
-          },
-          "label": "Billedbredde på computer",
-          "info": "Billedet er automatisk optimeret til mobiltelefoner."
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "Venstre"
-          },
-          "options__3": {
-            "label": "Højre"
-          },
-          "label": "Justering af indhold på computer",
-          "options__2": {
-            "label": "Centreret"
-          }
-        },
-        "desktop_content_position": {
-          "options__1": {
-            "label": "Top"
-          },
-          "options__2": {
-            "label": "I midten"
-          },
-          "options__3": {
-            "label": "Bund"
-          },
-          "label": "Placering af indhold på computer"
-        },
-        "content_layout": {
-          "options__1": {
-            "label": "Ingen overlapning"
-          },
-          "options__2": {
-            "label": "Overlapning"
-          },
-          "label": "Indholdslayout"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "Venstre"
-          },
-          "options__3": {
-            "label": "Højre"
-          },
-          "label": "Justering af indhold på mobil",
-          "options__2": {
-            "label": "Centreret"
-          }
         }
       },
       "blocks": {
@@ -987,18 +887,6 @@
           "settings": {
             "heading": {
               "label": "Overskrift"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Lille"
-              },
-              "options__2": {
-                "label": "Medium"
-              },
-              "options__3": {
-                "label": "Stor"
-              },
-              "label": "Størrelse for overskrift"
             }
           }
         },
@@ -1006,19 +894,7 @@
           "name": "Tekst",
           "settings": {
             "text": {
-              "label": "Indhold"
-            },
-            "text_style": {
-              "label": "Teksttypografi",
-              "options__1": {
-                "label": "Brødtekst"
-              },
-              "options__2": {
-                "label": "Undertekst"
-              },
-              "options__3": {
-                "label": "Store bogstaver"
-              }
+              "label": "Beskrivelse"
             }
           }
         },
@@ -1031,35 +907,6 @@
             },
             "button_link": {
               "label": "Knaplink"
-            }
-          }
-        },
-        "caption": {
-          "name": "Billedtekst",
-          "settings": {
-            "text": {
-              "label": "Tekst"
-            },
-            "text_style": {
-              "label": "Teksttypografi",
-              "options__1": {
-                "label": "Underoverskrift"
-              },
-              "options__2": {
-                "label": "Store bogstaver"
-              }
-            },
-            "caption_size": {
-              "label": "Tekststørrelse",
-              "options__1": {
-                "label": "Lille"
-              },
-              "options__2": {
-                "label": "Medium"
-              },
-              "options__3": {
-                "label": "Stor"
-              }
             }
           }
         }
@@ -1106,6 +953,9 @@
         "content": {
           "name": "Indhold"
         },
+        "social_sharing": {
+          "name": "Knapper til deling på sociale medier"
+        },
         "share": {
           "name": "Del",
           "settings": {
@@ -1129,7 +979,8 @@
           "content": "Kort med blogopslag"
         },
         "show_image": {
-          "label": "Vis udvalgt billede"
+          "label": "Vis udvalgt billede",
+          "info": "Brug et billede med et højde-bredde-forhold på 2:3 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "paragraph": {
           "content": "Skift uddrag ved at redigere dine blogopslag. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/online-store\/blogs\/writing-blogs#display-an-excerpt-from-a-blog-post)"
@@ -1141,14 +992,13 @@
           "label": "Vis forfatter"
         },
         "layout": {
-          "label": "Layout til computer",
+          "label": "Layout på store skærme",
           "options__1": {
             "label": "Gitter"
           },
           "options__2": {
             "label": "Kollage"
-          },
-          "info": "Opslag stables på mobilen."
+          }
         },
         "image_height": {
           "label": "Højde på udvalgt billede",
@@ -1164,7 +1014,26 @@
           "options__4": {
             "label": "Stor"
           },
-          "info": "Brug et billede med et højde-bredde-forhold på 3:2 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Brug et billede med et højde-bredde-forhold på 2:3 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+        }
+      },
+      "blocks": {
+        "title": {
+          "name": "Titel",
+          "settings": {
+            "show_date": {
+              "label": "Vis dato"
+            },
+            "show_author": {
+              "label": "Vis forfatter"
+            }
+          }
+        },
+        "summary": {
+          "name": "Uddrag"
+        },
+        "link": {
+          "name": "Link"
         }
       }
     },
@@ -1254,8 +1123,11 @@
         "show_image_outline": {
           "label": "Vis billedramme"
         },
+        "enable_sort": {
+          "label": "Aktivér sortering"
+        },
         "collapse_on_larger_devices": {
-          "label": "Skjul på computer"
+          "label": "Skjul på større skærme"
         },
         "show_rating": {
           "label": "Vis produktbedømmelser",
@@ -1446,6 +1318,10 @@
         "share": {
           "name": "Del",
           "settings": {
+            "header": {
+              "content": "Del",
+              "info": "Når du slår et link fra din webshop op på sociale medier, vises det udvalgte billede for denne side. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images). Angiv en titel og en beskrivelse for din webshop. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+            },
             "featured_image_info": {
               "content": "Hvis du inkluderer et link i opslag på sociale medier, vil sidens udvalgte billede blive vist som billedeksempel. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
@@ -1585,44 +1461,10 @@
           "label": "Aktivér looping af videoer"
         },
         "enable_sticky_info": {
-          "label": "Aktivér klæbende indhold på computer"
+          "label": "Aktivér fastgjorte produktoplysninger på store skærme"
         },
         "hide_variants": {
           "label": "Skjul andre varianters medier, når du har valgt en variant"
-        },
-        "gallery_layout": {
-          "label": "Layout til computer",
-          "options__1": {
-            "label": "Stablet"
-          },
-          "options__2": {
-            "label": "Miniaturer"
-          },
-          "options__3": {
-            "label": "Miniaturekarussel"
-          }
-        },
-        "media_size": {
-          "label": "Mediestørrelse til computer",
-          "options__1": {
-            "label": "Lille"
-          },
-          "options__2": {
-            "label": "Medium"
-          },
-          "options__3": {
-            "label": "Stor"
-          },
-          "info": "Medieindhold optimeres automatisk til mobil."
-        },
-        "mobile_thumbnails": {
-          "label": "Mobillayout",
-          "options__1": {
-            "label": "Vis miniaturer"
-          },
-          "options__2": {
-            "label": "Skjul miniaturer"
-          }
         }
       }
     },
@@ -1747,12 +1589,6 @@
             },
             "text": {
               "label": "Beskrivelse"
-            },
-            "link_label": {
-              "label": "Navn på link"
-            },
-            "link": {
-              "label": "Link"
             }
           }
         }
@@ -1828,8 +1664,15 @@
     "product-recommendations": {
       "name": "Produktanbefalinger",
       "settings": {
+        "header": {
+          "info": "Dynamiske anbefalinger bruger ordre- og produktoplysninger til at foretage ændringer og forbedringer med tiden. [Få mere at vide](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+        },
         "heading": {
           "label": "Overskrift"
+        },
+        "header__1": {
+          "content": "Produktanbefalinger",
+          "info": "Dynamiske anbefalinger bruger ordre- og produktoplysninger til at foretage ændringer og forbedringer med tiden. [Få mere at vide](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "Produktkort"
@@ -1906,7 +1749,7 @@
               "options__2": {
                 "label": "Medium"
               },
-              "label": "Størrelse for overskrift",
+              "label": "Skriftstørrelse til overskrifter",
               "options__3": {
                 "label": "Stor"
               }
@@ -2090,423 +1933,6 @@
       },
       "presets": {
         "name": "Fremhævet produkt"
-      }
-    },
-    "email-signup-banner": {
-      "name": "Banner for tilmelding med mail",
-      "settings": {
-        "paragraph": {
-          "content": "Alle mailabonnementer opretter en kundekonto. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/customers)"
-        },
-        "image": {
-          "label": "Baggrundsbillede"
-        },
-        "show_background_image": {
-          "label": "Vis baggrundsbillede"
-        },
-        "show_text_box": {
-          "label": "Vis container på skrivebord"
-        },
-        "image_overlay_opacity": {
-          "label": "Billedoverlejringens uigennemsigtighed"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "Markering 1"
-          },
-          "options__2": {
-            "label": "Markering 2"
-          },
-          "options__3": {
-            "label": "Baggrund 1"
-          },
-          "options__4": {
-            "label": "Baggrund 2"
-          },
-          "options__5": {
-            "label": "Omvendt"
-          },
-          "label": "Farveskema",
-          "info": "Synlig, når containeren vises"
-        },
-        "show_text_below": {
-          "label": "Vis indhold under billede på mobiltelefon",
-          "info": "Brug et billede med et højde-bredde-forhold på 16:9 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "image_height": {
-          "label": "Bannerhøjde",
-          "options__1": {
-            "label": "Tilpas til billede"
-          },
-          "options__2": {
-            "label": "Lille"
-          },
-          "options__3": {
-            "label": "Medium"
-          },
-          "options__4": {
-            "label": "Stor"
-          },
-          "info": "Brug et billede med et højde-bredde-forhold på 16:9 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
-        },
-        "desktop_content_position": {
-          "options__4": {
-            "label": "Midt på til venstre"
-          },
-          "options__5": {
-            "label": "Midt på centreret"
-          },
-          "options__6": {
-            "label": "Midt på til højre"
-          },
-          "options__7": {
-            "label": "Nederst til venstre"
-          },
-          "options__8": {
-            "label": "Nederst i midten"
-          },
-          "options__9": {
-            "label": "Nederst til højre"
-          },
-          "options__1": {
-            "label": "Øverst til venstre"
-          },
-          "options__2": {
-            "label": "Øverst i midten"
-          },
-          "options__3": {
-            "label": "Øverst til højre"
-          },
-          "label": "Placering af indhold på computer"
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "Venstre"
-          },
-          "options__2": {
-            "label": "Centreret"
-          },
-          "options__3": {
-            "label": "Højre"
-          },
-          "label": "Justering af indhold på computer"
-        },
-        "header": {
-          "content": "Mobillayout"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "Venstre"
-          },
-          "options__2": {
-            "label": "Centreret"
-          },
-          "options__3": {
-            "label": "Højre"
-          },
-          "label": "Justering af indhold på mobil"
-        }
-      },
-      "blocks": {
-        "heading": {
-          "name": "Overskrift",
-          "settings": {
-            "heading": {
-              "label": "Overskrift"
-            }
-          }
-        },
-        "paragraph": {
-          "name": "Afsnit",
-          "settings": {
-            "paragraph": {
-              "label": "Beskrivelse"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Brødtekst"
-              },
-              "options__2": {
-                "label": "Undertekst"
-              },
-              "label": "Teksttypografi"
-            }
-          }
-        },
-        "email_form": {
-          "name": "Mailformular"
-        }
-      },
-      "presets": {
-        "name": "Banner for tilmelding med mail"
-      }
-    },
-    "slideshow": {
-      "name": "Diasshow",
-      "settings": {
-        "layout": {
-          "label": "Layout",
-          "options__1": {
-            "label": "Fuld bredde"
-          },
-          "options__2": {
-            "label": "Gitter"
-          }
-        },
-        "slide_height": {
-          "label": "Diashøjde",
-          "options__1": {
-            "label": "Tilpas til første side"
-          },
-          "options__2": {
-            "label": "Lille"
-          },
-          "options__3": {
-            "label": "Medium"
-          },
-          "options__4": {
-            "label": "Stor"
-          }
-        },
-        "slider_visual": {
-          "label": "Sideinddeling – stil",
-          "options__1": {
-            "label": "Tæller"
-          },
-          "options__2": {
-            "label": "Prikker"
-          },
-          "options__3": {
-            "label": "Tal"
-          }
-        },
-        "heading_size": {
-          "label": "Skriftstørrelse til overskrifter",
-          "options__1": {
-            "label": "Medium"
-          },
-          "options__2": {
-            "label": "Stor"
-          }
-        },
-        "box_align": {
-          "label": "Placering af indhold på computer",
-          "options__1": {
-            "label": "Øverst til venstre"
-          },
-          "options__2": {
-            "label": "Øverst i midten"
-          },
-          "options__3": {
-            "label": "Øverst til højre"
-          },
-          "options__4": {
-            "label": "Midt på til venstre"
-          },
-          "options__5": {
-            "label": "Midt på centreret"
-          },
-          "options__6": {
-            "label": "Midt på til højre"
-          },
-          "options__7": {
-            "label": "Nederst til venstre"
-          },
-          "options__8": {
-            "label": "Nederst i midten"
-          },
-          "options__9": {
-            "label": "Nederst til højre"
-          }
-        },
-        "show_text_box": {
-          "label": "Vis container på skrivebord"
-        },
-        "text_alignment": {
-          "label": "Justering af indhold på computer",
-          "option_1": {
-            "label": "Venstre"
-          },
-          "option_2": {
-            "label": "Centreret"
-          },
-          "option_3": {
-            "label": "Højre"
-          }
-        },
-        "image_overlay_opacity": {
-          "label": "Billedoverlejringens uigennemsigtighed"
-        },
-        "auto_rotate": {
-          "label": "Roter automatisk slides"
-        },
-        "change_slides_speed": {
-          "label": "Skift slide hver"
-        },
-        "color_scheme": {
-          "label": "Farveskema (felt)",
-          "info": "Synlig, når containeren vises.",
-          "options__1": {
-            "label": "Markering 1"
-          },
-          "options__2": {
-            "label": "Markering 2"
-          },
-          "options__3": {
-            "label": "Baggrund 1"
-          },
-          "options__4": {
-            "label": "Baggrund 2"
-          },
-          "options__5": {
-            "label": "Omvendt"
-          }
-        },
-        "mobile": {
-          "content": "Mobillayout"
-        },
-        "text_alignment_mobile": {
-          "label": "Justering af indhold på mobil",
-          "options__1": {
-            "label": "Venstre"
-          },
-          "options__2": {
-            "label": "Centreret"
-          },
-          "options__3": {
-            "label": "Højre"
-          }
-        },
-        "show_text_below": {
-          "label": "Vis indhold under billeder på mobiltelefoner"
-        },
-        "accessibility": {
-          "content": "Tilgængelighed",
-          "label": "Beskrivelse af diasshow",
-          "info": "Beskriv diasshowet for kunder med en skærmlæser."
-        }
-      },
-      "blocks": {
-        "slide": {
-          "name": "Slide",
-          "settings": {
-            "image": {
-              "label": "Billede"
-            },
-            "heading": {
-              "label": "Overskrift"
-            },
-            "subheading": {
-              "label": "Underoverskrift"
-            },
-            "button_label": {
-              "label": "Knaptekst",
-              "info": "Lad feltet være tomt for at skjule knappen."
-            },
-            "link": {
-              "label": "Knaplink",
-              "info": "Lad feltet være tomt for at skjule knappen."
-            },
-            "secondary_style": {
-              "label": "Brug rammeknaptypografi"
-            },
-            "heading_size": {
-              "label": "Størrelse for overskrift",
-              "options__1": {
-                "label": "Lille"
-              },
-              "options__2": {
-                "label": "Medium"
-              },
-              "options__3": {
-                "label": "Stor"
-              }
-            },
-            "box_align": {
-              "label": "Placering af indhold på computer",
-              "options__1": {
-                "label": "Øverst til venstre"
-              },
-              "options__2": {
-                "label": "Øverst i midten"
-              },
-              "options__3": {
-                "label": "Øverst til højre"
-              },
-              "options__4": {
-                "label": "Midt på til venstre"
-              },
-              "options__5": {
-                "label": "Midt på centreret"
-              },
-              "options__6": {
-                "label": "Midt på til højre"
-              },
-              "options__7": {
-                "label": "Nederst til venstre"
-              },
-              "options__8": {
-                "label": "Nederst i midten"
-              },
-              "options__9": {
-                "label": "Nederst til højre"
-              },
-              "info": "Placeringen optimeres automatisk til mobil."
-            },
-            "show_text_box": {
-              "label": "Vis container på skrivebord"
-            },
-            "text_alignment": {
-              "label": "Justering af indhold på computer",
-              "option_1": {
-                "label": "Venstre"
-              },
-              "option_2": {
-                "label": "Centreret"
-              },
-              "option_3": {
-                "label": "Højre"
-              }
-            },
-            "image_overlay_opacity": {
-              "label": "Billedoverlejringens uigennemsigtighed"
-            },
-            "color_scheme": {
-              "label": "Farveskema",
-              "info": "Synlig, når containeren vises.",
-              "options__1": {
-                "label": "Markering 1"
-              },
-              "options__2": {
-                "label": "Markering 2"
-              },
-              "options__3": {
-                "label": "Baggrund 1"
-              },
-              "options__4": {
-                "label": "Baggrund 2"
-              },
-              "options__5": {
-                "label": "Omvendt"
-              }
-            },
-            "text_alignment_mobile": {
-              "label": "Justering af indhold på mobil",
-              "options__1": {
-                "label": "Venstre"
-              },
-              "options__2": {
-                "label": "Centreret"
-              },
-              "options__3": {
-                "label": "Højre"
-              }
-            }
-          }
-        }
-      },
-      "presets": {
-        "name": "Diasshow"
       }
     }
   }

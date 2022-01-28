@@ -7,6 +7,7 @@
       "login_form_password_placeholder": "Sandi Anda",
       "login_form_error": "Sandi salah!",
       "login_form_submit": "Masuk",
+      "modal": "Modal sandi",
       "admin_link_html": "Anda pemilik toko? <a href=\"\/admin\" class=\"link underlined-link\">Login di sini<\/a>",
       "powered_by_shopify_html": "Toko ini didukung oleh {{ shopify }}"
     },
@@ -44,14 +45,10 @@
     },
     "share": {
       "copy_to_clipboard": "Salin tautan",
+      "share": "Bagikan",
       "share_url": "Tautan",
       "success_message": "Tautan disalin ke clipboard",
       "close": "Tutup bagikan"
-    },
-    "slider": {
-      "of": "dari",
-      "next_slide": "Geser kanan",
-      "previous_slide": "Geser kiri"
     }
   },
   "newsletter": {
@@ -70,7 +67,10 @@
       "new_window": "Membuka di jendela baru.",
       "external": "Membuka situs web eksternal."
     },
+    "next_slide": "Geser kanan",
+    "previous_slide": "Geser kiri",
     "loading": "Memuat...",
+    "of": "dari",
     "skip_to_product_info": "Langsung ke informasi produk",
     "total_reviews": "ulasan keseluruhan",
     "star_reviews_info": "{{ rating_value }} dari {{ rating_max }} bintang"
@@ -79,6 +79,7 @@
     "article": {
       "blog": "Blog",
       "read_more_title": "Baca selengkapnya: {{ title }}",
+      "read_more": "Baca selengkapnya",
       "comments": {
         "one": "{{ count }} komentar",
         "other": "{{ count }} komentar"
@@ -134,14 +135,10 @@
         "refresh": "Muat ulang"
       },
       "media": {
-        "open_media": "Buka media {{ index }} di modal",
+        "open_featured_media": "Buka media unggulan di tampilan galeri",
+        "open_media": "Buka media {{ index }} di tampilan galeri",
         "play_model": "Putar Penampil 3D",
-        "play_video": "Putar video",
-        "gallery_viewer": "Penampil Galeri",
-        "load_image": "Muat gambar {{ index }} di tampilan galeri",
-        "load_model": "Muat Model 3D {{ index }} di tampilan galeri",
-        "load_video": "Putar video {{ index }} di tampilan galeri",
-        "image_available": "Gambar {{ index }} kini tersedia di tampilan galeri"
+        "play_video": "Putar video"
       },
       "view_full_details": "Lihat detail lengkap",
       "include_taxes": "Termasuk pajak.",
@@ -232,7 +229,7 @@
       "checkout": "Check out",
       "empty": "Keranjang Anda kosong",
       "cart_error": "Terjadi kesalahan saat memperbarui keranjang. Silakan coba lagi.",
-      "cart_quantity_error_html": "Hanya dapat menambahkan {{ quantity }} item ini ke keranjang Anda.",
+      "cart_quantity_error_html": "Hanya dapat menambahkan [quantity] item ini ke keranjang Anda.",
       "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\">biaya pengiriman<\/a> dihitung saat checkout",
       "taxes_included_but_shipping_at_checkout": "Termasuk pajak dan biaya pengiriman dihitung saat checkout",
       "taxes_included_and_shipping_policy_html": "Termasuk pajak. <a href=\"{{ link }}\">Biaya pengiriman<\/a> dihitung saat checkout.",
@@ -250,7 +247,8 @@
       }
     },
     "footer": {
-      "payment": "Metode pembayaran"
+      "payment": "Metode pembayaran",
+      "social_placeholder": "Ikuti kami di media sosial!"
     },
     "featured_blog": {
       "view_all": "Lihat semua",
@@ -271,15 +269,6 @@
     },
     "video": {
       "load_video": "Muat video: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Muat slide",
-      "previous_slideshow": "Slide sebelumnya",
-      "next_slideshow": "Slide berikutnya",
-      "pause_slideshow": "Jeda slideshow",
-      "play_slideshow": "Putar slideshow",
-      "carousel": "Carousel",
-      "slide": "Geser"
     }
   },
   "localization": {

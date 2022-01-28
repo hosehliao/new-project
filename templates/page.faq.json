@@ -1,0 +1,274 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1638350769c7946722": {
+      "type": "accordion-group",
+      "settings": {
+        "heading": "FAQ"
+      }
+    },
+    "1638350765850cd99b": {
+      "type": "accordion-group",
+      "blocks": {
+        "e626785a-72e9-4ce1-ac5b-299fb0e1feb1": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Order Progress",
+            "discription": "<p>Whether ordering success<br\/><\/p><p>After the order was established, the system will send a “order confirmation” email to you to confirm the order details, including order details and receiving information.<\/p>"
+          }
+        },
+        "6f911129-3425-47a0-98b8-99b2adaf89d8": {
+          "type": "accordion",
+          "settings": {
+            "heading": "How do I purchase products?",
+            "discription": "<p>Select a product ➤ add to cart \/ buy it now ➤ choose payment method ➤ fill in personal details ➤ complete order<\/p>"
+          }
+        },
+        "f38bd288-1286-4d6e-bae9-e78bb461c264": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Do i need to create a Saime account to make a purchase?",
+            "discription": "<p>You do not need to create an account to make a purchase. However, we recommend that you set up a S'AIME account to save your payment information, address details and reviewing your order history.<\/p>"
+          }
+        },
+        "a8e65157-14c4-4700-add3-2409abb73dc4": {
+          "type": "accordion",
+          "settings": {
+            "heading": "After the order has been placed, can I cancel, change or merge the order?",
+            "discription": "<p>To change the order, please contact the customer service. If the package has been shipped before the customer service responds to the message, the order cannot be modified\/cancelled.<\/p>"
+          }
+        },
+        "5fe0af8e-fc12-4f6b-9c98-23ea1b1f1cae": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Can I track my order online?",
+            "discription": "<p>Yes, we provide online tracking service. Please kindly click <a href=\"https:\/\/saimeglobal.com\/track-my-order\" title=\"https:\/\/saimeglobal.com\/track-my-order\">Track My Order<\/a> here. It may take up to 24 hours for tracking data to be available.<\/p>"
+          }
+        },
+        "43695df9-cab6-457a-b900-a585413611e9": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "How to sign up?",
+            "discription": "<p>Click [<a href=\"http:\/\/www.bonia.com\/customer\/account\/login\/\" title=\"https:\/\/saimeglobal.com\/customer\/account\/login\/\">MY ACCOUNT<\/a>] ➤ Enter Email\/Password ➤ Confirm and Submit] Then you're now and become S'AIME official member!<\/p>"
+          }
+        },
+        "a3bf4a95-b40e-4d67-a5d5-3f500b914e32": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "Forget password?",
+            "discription": "<p>Please click [Forgot Password] ➤ Enter e-mail ➤ Submit<br\/>The system will send an email to let you reset your password<\/p>"
+          }
+        },
+        "deda8468-436b-4f5c-816b-0d5f067d7845": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "Can I amend any of my order details?",
+            "discription": "<p>Kindly contact <a href=\"http:\/\/m.me\/saimemalaysia.os\" target=\"_blank\" title=\"http:\/\/m.me\/saimemalaysia.os\"><strong>Customer Service<\/strong><\/a>for further information.<\/p>"
+          }
+        },
+        "0b88de0a-a45d-467f-85dd-f253f37f2e95": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "How do I track the delivery of my order?",
+            "discription": "<p>As soon as your order is dispatched, we will send you a confirmation email along with your unique tracking number. You may use this number to track your order online. You can log in to the member center to check the SF EXpress tracking number <a href=\"https:\/\/htm.sf-express.com\/tw\/en\/dynamic_function\/waybill\/#send\/page=1\" title=\"https:\/\/htm.sf-express.com\/tw\/en\/dynamic_function\/waybill\/#send\/page=1\">https:\/\/htm.sf-express.com\/tw\/en\/dynamic_function\/waybill\/#send\/page=1<\/a><\/p>"
+          }
+        },
+        "9f414611-98a4-422e-9d79-c751be3d19d2": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "Can I buy gift card online?",
+            "discription": "<p>Yes, you may buy the gift card online by entering your gift card code into Gift Card\/ discount code section in Checkout page.<\/p>"
+          }
+        },
+        "781d4e8c-b2ca-4af8-bb0b-855c721b8547": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "How to apply promo code?",
+            "discription": "<p>Check out the steps below that (might) solve your issue!<\/p><p>a)   Visit <a href=\"https:\/\/saimeglobal.com\" title=\"https:\/\/saimeglobal.com\">saimeglobal.com<\/a><\/p><p>b)   Create an <a href=\"http:\/\/www.bonia.com\/customer\/account\/login\/\" title=\"http:\/\/www.bonia.com\/customer\/account\/login\/\">account or login<\/a> to your Shop Online saimeglobal.com account if you have already registered.<\/p><p>c)   Select your desired item and Add to Cart.<\/p><p>d)   Proceed to Checkout page.<\/p><p>e)   Apply the e-Coupon code on the PROMO CODE section.<\/p><p>f)   Proceed to Checkout.<\/p>"
+          }
+        },
+        "51ae4731-9188-4bb8-9e58-30018e35d917": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "How long does it take to ship after placing an order?",
+            "discription": "<p>Available products will be shipped 1-2 working days after the order is placed (excluding weekends)<\/p>"
+          }
+        },
+        "a55d03d7-8d5c-495f-b338-a1c5cc6495d4": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "How long will the order be delivered after it is shipped?",
+            "discription": "<p>The average delivery is 3-5 days! Due to customs clearance issues in Malaysia, it takes 7-14 days.<\/p>"
+          }
+        },
+        "691dff6e-6ab7-415d-bcf0-49449ef26331": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "How do I know if the package has been sent?",
+            "discription": "<p>After the package has been sent, Saime will send an email to notify and provide the package number in the email.<\/p>"
+          }
+        },
+        "a4127b23-d921-4953-b101-ab748af55e5a": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "heading": "Do you deliver during weekends?",
+            "discription": "<p>Our courier partner is not available on Saturday and Sunday.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e626785a-72e9-4ce1-ac5b-299fb0e1feb1",
+        "6f911129-3425-47a0-98b8-99b2adaf89d8",
+        "f38bd288-1286-4d6e-bae9-e78bb461c264",
+        "a8e65157-14c4-4700-add3-2409abb73dc4",
+        "5fe0af8e-fc12-4f6b-9c98-23ea1b1f1cae",
+        "43695df9-cab6-457a-b900-a585413611e9",
+        "a3bf4a95-b40e-4d67-a5d5-3f500b914e32",
+        "deda8468-436b-4f5c-816b-0d5f067d7845",
+        "0b88de0a-a45d-467f-85dd-f253f37f2e95",
+        "9f414611-98a4-422e-9d79-c751be3d19d2",
+        "781d4e8c-b2ca-4af8-bb0b-855c721b8547",
+        "51ae4731-9188-4bb8-9e58-30018e35d917",
+        "a55d03d7-8d5c-495f-b338-a1c5cc6495d4",
+        "691dff6e-6ab7-415d-bcf0-49449ef26331",
+        "a4127b23-d921-4953-b101-ab748af55e5a"
+      ],
+      "settings": {
+        "heading": "Order\/ Purchasing"
+      }
+    },
+    "1638354645fdbcbff0": {
+      "type": "accordion-group",
+      "blocks": {
+        "773b215b-5d87-4313-aaf8-75174e8af9dd": {
+          "type": "accordion",
+          "settings": {
+            "heading": "How to sign up?",
+            "discription": "<p>Click [<a href=\"http:\/\/www.bonia.com\/customer\/account\/login\/\" title=\"https:\/\/saimeglobal.com\/customer\/account\/login\/\">MY ACCOUNT<\/a>] ➤ Enter Email\/Password ➤ Confirm and Submit] Then you're now and become S'AIME official member!<\/p>"
+          }
+        },
+        "8e92fa37-b422-4355-a12c-146bcb264353": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Forget password?",
+            "discription": "<p>Please click [Forgot Password] ➤ Enter e-mail ➤ Submit<br\/>The system will send an email to let you reset your password<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "773b215b-5d87-4313-aaf8-75174e8af9dd",
+        "8e92fa37-b422-4355-a12c-146bcb264353"
+      ],
+      "settings": {
+        "heading": "Payment & Account"
+      }
+    },
+    "1638352907bfe3c4af": {
+      "type": "accordion-group",
+      "blocks": {
+        "92cbc5b8-53f0-454c-8f14-75ca99318dac": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Do you deliver during weekends?",
+            "discription": "<p>Our courier partner is not available on Saturday and Sunday.<\/p>"
+          }
+        },
+        "dac816a5-4d73-4c41-8af4-87016ee4e0d5": {
+          "type": "accordion",
+          "settings": {
+            "heading": "How do I know if the package has been sent?",
+            "discription": "<p>After the package has been sent, Saime will send an email to notify and provide the package number in the email.<\/p>"
+          }
+        },
+        "5b948447-e15b-4d27-acc9-4230d027b21c": {
+          "type": "accordion",
+          "settings": {
+            "heading": "How long does it take to ship after placing an order?",
+            "discription": "<p>Available products will be shipped 1-2 working days after the order is placed (excluding weekends)<\/p>"
+          }
+        },
+        "0fa8f22f-8d98-4d18-85d9-d4329d71b764": {
+          "type": "accordion",
+          "settings": {
+            "heading": "How long will the order be delivered after it is shipped?",
+            "discription": "<p>The average delivery is 3-5 days! Due to customs clearance issues in Malaysia, it takes 7-14 days.<\/p>"
+          }
+        },
+        "2e2fffb5-c187-4689-a644-d33701467892": {
+          "type": "accordion",
+          "settings": {
+            "heading": "How do I track the delivery of my order?",
+            "discription": "<p>As soon as your order is dispatched, we will send you a confirmation email along with your unique tracking number. You may use this number to track your order online. You can log in to the member center to check the SF EXpress tracking number <a href=\"https:\/\/htm.sf-express.com\/tw\/en\/dynamic_function\/waybill\/#send\/page=1\" title=\"https:\/\/htm.sf-express.com\/tw\/en\/dynamic_function\/waybill\/#send\/page=1\">https:\/\/htm.sf-express.com\/tw\/en\/dynamic_function\/waybill\/#send\/page=1<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "92cbc5b8-53f0-454c-8f14-75ca99318dac",
+        "dac816a5-4d73-4c41-8af4-87016ee4e0d5",
+        "5b948447-e15b-4d27-acc9-4230d027b21c",
+        "0fa8f22f-8d98-4d18-85d9-d4329d71b764",
+        "2e2fffb5-c187-4689-a644-d33701467892"
+      ],
+      "settings": {
+        "heading": "Delivery \/ Shipping"
+      }
+    },
+    "16383547713d16c0ba": {
+      "type": "accordion-group",
+      "blocks": {
+        "4976fcaf-792f-4b27-bd44-fc59e13b5562": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Can I amend any of my order details?",
+            "discription": "<p>Kindly contact <a href=\"http:\/\/m.me\/saimemalaysia.os\" target=\"_blank\" title=\"http:\/\/m.me\/saimemalaysia.os\"><strong>Customer Service<\/strong><\/a> for further information.<\/p>"
+          }
+        },
+        "8eff6407-50b2-4cf3-99f6-274c32c95373": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Can I buy gift card online?",
+            "discription": "<p>Yes, you may buy the gift card online by entering your gift card code into Gift Card\/ discount code section in Checkout page.<\/p>"
+          }
+        },
+        "a1e8b1d3-a833-47c5-9dbd-cf10b5008d90": {
+          "type": "accordion",
+          "settings": {
+            "heading": "How to apply promo code?",
+            "discription": "<p>Check out the steps below that (might) solve your issue!<\/p><p>a)   Visit <a href=\"https:\/\/saimeglobal.com\" title=\"https:\/\/saimeglobal.com\">saimeglobal.com<\/a><\/p><p>b)   Create an <a href=\"http:\/\/www.bonia.com\/customer\/account\/login\/\" title=\"http:\/\/www.bonia.com\/customer\/account\/login\/\">account or login<\/a> to your Shop Online saimeglobal.com account if you have already registered.<\/p><p>c)   Select your desired item and Add to Cart.<\/p><p>d)   Proceed to Checkout page.<\/p><p>e)   Apply the e-Coupon code on the PROMO CODE section.<\/p><p>f)   Proceed to Checkout.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4976fcaf-792f-4b27-bd44-fc59e13b5562",
+        "8eff6407-50b2-4cf3-99f6-274c32c95373",
+        "a1e8b1d3-a833-47c5-9dbd-cf10b5008d90"
+      ],
+      "settings": {
+        "heading": "Technical questions"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1638350769c7946722",
+    "1638350765850cd99b",
+    "1638354645fdbcbff0",
+    "1638352907bfe3c4af",
+    "16383547713d16c0ba"
+  ]
+}
