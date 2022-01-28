@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "16420439367d12c074": {
+      "type": "flickity",
+      "blocks": {
+        "16420439367f5b467a-2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/max_mara_532f0bab-aa79-4c70-8056-9201a2f949c1.jpg",
+            "link": "https:\/\/www.youtube.com"
+          }
+        },
+        "16420439367f5b467a-3": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-7_160x160_2x_0ad355df-d9fc-46b9-8927-a786bf6f7ae8.png",
+            "link": "shopify:\/\/collections\/summer-collection"
+          }
+        },
+        "f9a66ade-3940-47e5-bdb0-bf4495c9347a": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-10_160x160_2x_1336d2e9-e065-4e7f-95b9-cddce33d746a.png",
+            "link": ""
+          }
+        },
+        "fe78972a-c3c7-4e15-b9c8-10f3ca537054": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-CMDO-Content-Carousel-9arousel-aigner_160x160_2x_dc60aebf-5d87-45f3-9645-8ccd4d28bba7.png",
+            "link": "shopify:\/\/products\/leather-short-wallets-swa31-a583s"
+          }
+        },
+        "d4b1a920-b998-470a-8bde-a0ba2551ff64": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-1_160x160_2x_638f598b-9a93-49ad-b49b-6890a32c3df1.png",
+            "link": "shopify:\/\/collections\/laptopbags"
+          }
+        },
+        "16420439367f5b467a-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-3_160x160_2x_092e4b55-8f40-4f73-94c5-767f11db2b23.png",
+            "link": ""
+          }
+        },
+        "416dd62a-fbf7-4ae8-94bb-541849a9e5d9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-2_160x160_2x_841cb204-863a-45bb-b515-136634f5d6ca.png",
+            "link": "shopify:\/\/collections\/leather"
+          }
+        },
+        "16420439367f5b467a-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/max_mara_532f0bab-aa79-4c70-8056-9201a2f949c1.jpg",
+            "link": "https:\/\/www.meekco.asia"
+          }
+        },
+        "50625f4b-a161-43cc-a666-9afa5a4225f0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-10_160x160_2x_767dd47b-7a16-4e20-b252-72e4cfa0f919.png",
+            "link": "shopify:\/\/blogs\/news"
+          }
+        },
+        "cabeb618-58bc-4781-9681-2667f36268aa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDO-Content-Carousel-8_160x160_2x_d7f8685f-7233-44d6-bfd5-d4568dd3508e.png",
+            "link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "16420439367f5b467a-2",
+        "16420439367f5b467a-3",
+        "f9a66ade-3940-47e5-bdb0-bf4495c9347a",
+        "fe78972a-c3c7-4e15-b9c8-10f3ca537054",
+        "d4b1a920-b998-470a-8bde-a0ba2551ff64",
+        "16420439367f5b467a-1",
+        "416dd62a-fbf7-4ae8-94bb-541849a9e5d9",
+        "16420439367f5b467a-0",
+        "50625f4b-a161-43cc-a666-9afa5a4225f0",
+        "cabeb618-58bc-4781-9681-2667f36268aa"
+      ],
+      "settings": {
+        "bg": "#ffffff",
+        "title": "NEW ARRIVALS",
+        "wrap_around": "false",
+        "margin_right": 0
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "button",
+        "heading"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "video": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "164309705843200051": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "1643097612c09f7a61": {
+      "type": "slideshow-bonia",
+      "blocks": {
+        "16430976121bb28ae2-0": {
+          "type": "image",
+          "settings": {
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "16430976121bb28ae2-1": {
+          "type": "image",
+          "settings": {
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16430976121bb28ae2-0",
+        "16430976121bb28ae2-1"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "16420439367d12c074",
+    "image_banner",
+    "video",
+    "164309705843200051",
+    "1643097612c09f7a61"
+  ]
+}
